@@ -9,6 +9,8 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORG = process.env.ORG || 'nightswatchhq';
 const DISCORD = process.env.DISCORD_INVITE || 'https://discord.gg/CQewvyJ69Y';
+// Canonical origin, no trailing slash. Override with SITE_URL when a custom domain lands.
+const SITE_URL = (process.env.SITE_URL || 'https://nightswatch-landing.vercel.app').replace(/\/+$/, '');
 
 const esc = (s) =>
   String(s ?? '').replace(/[&<>"']/g, (c) =>
@@ -146,6 +148,7 @@ const page = (await readFile(join(ROOT, 'src/index.template.html'), 'utf8'))
   .replaceAll('{{REPOS}}', html)
   .replaceAll('{{REPO_COUNT}}', String(count))
   .replaceAll('{{DISCORD}}', esc(DISCORD))
+  .replaceAll('{{SITE_URL}}', esc(SITE_URL))
   .replaceAll('{{GENERATED}}', generated);
 
 if (page.includes('{{')) throw new Error('unreplaced placeholder left in output');
