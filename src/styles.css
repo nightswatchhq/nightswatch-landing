@@ -2,30 +2,30 @@
    No frameworks, no webfonts, no third-party requests. */
 
 :root[data-theme="dark"] {
-  --bg:        #0a0c0f;
-  --bg-raise:  #12161b;
-  --bg-sink:   #070809;
-  --line:      #1e252d;
-  --line-soft: #171d24;
-  --ink:       #e6ebf1;
-  --ink-dim:   #93a1b1;
-  --ink-faint: #64748b;
-  --ice:       #8fc3e8;
-  --ice-deep:  #4a90c2;
-  --glow:      rgba(143, 195, 232, .10);
+  --bg:        #06041c;
+  --bg-raise:  #0d0a26;
+  --bg-sink:   #04030f;
+  --line:      #241d4a;
+  --line-soft: #191340;
+  --ink:       #e9e6f8;
+  --ink-dim:   #a49dc8;
+  --ink-faint: #7a72b0;
+  --accent:      #9b7dff;
+  --accent-deep: #653efc;
+  --glow:      rgba(101, 62, 252, .16);
 }
 :root[data-theme="light"] {
-  --bg:        #f7f8fa;
+  --bg:        #f8f7fc;
   --bg-raise:  #ffffff;
-  --bg-sink:   #eceef2;
-  --line:      #d9dee5;
-  --line-soft: #e6e9ee;
-  --ink:       #10151b;
-  --ink-dim:   #4a5768;
-  --ink-faint: #7b8899;
-  --ice:       #1f6899;
-  --ice-deep:  #14496d;
-  --glow:      rgba(31, 104, 153, .07);
+  --bg-sink:   #efedf7;
+  --line:      #ddd8ec;
+  --line-soft: #e8e5f2;
+  --ink:       #120d24;
+  --ink-dim:   #4b4370;
+  --ink-faint: #726a92;
+  --accent:      #5b2fd4;
+  --accent-deep: #4a21b8;
+  --glow:      rgba(101, 62, 252, .08);
 }
 
 * { box-sizing: border-box; }
@@ -48,7 +48,7 @@ body {
   overflow-x: hidden;
 }
 
-a { color: var(--ice); text-decoration: none; }
+a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .skip {
@@ -68,7 +68,8 @@ a:hover { text-decoration: underline; }
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(10px);
 }
-.topbar .mark { color: var(--ice); flex: none; display: block; }
+.topbar .mark { flex: none; display: block; border-radius: 50%; }
+.sigil img { border-radius: 50%; }
 .sigil { display: flex; align-items: center; justify-content: center; gap: .45rem; color: var(--ink-dim); }
 .wordmark {
   font-weight: 600; letter-spacing: .01em; font-size: .95rem;
@@ -80,10 +81,10 @@ a:hover { text-decoration: underline; }
 .topbar nav a { color: var(--ink-dim); }
 .topbar nav a:hover { color: var(--ink); text-decoration: none; }
 .cta-sm {
-  border: 1px solid var(--ice-deep); color: var(--ice) !important;
+  border: 1px solid var(--accent-deep); color: var(--accent) !important;
   padding: .3rem .8rem; border-radius: 999px;
 }
-.cta-sm:hover { background: var(--ice-deep); color: #fff !important; }
+.cta-sm:hover { background: var(--accent-deep); color: #fff !important; }
 #theme {
   background: none; border: 1px solid var(--line); color: var(--ink-dim);
   border-radius: 6px; width: 30px; height: 30px; cursor: pointer;
@@ -121,13 +122,13 @@ h2 {
 }
 .thats-us {
   font-size: clamp(1.05rem, 2.2vw, 1.25rem);
-  font-weight: 600; color: var(--ice); margin: 0 0 2.2rem;
+  font-weight: 600; color: var(--accent); margin: 0 0 2.2rem;
 }
 .actions { display: flex; flex-wrap: wrap; gap: .75rem; }
 .cta {
   display: inline-block; padding: .7rem 1.4rem; border-radius: 8px;
-  background: var(--ice-deep); color: #fff; font-weight: 560; font-size: .95rem;
-  border: 1px solid var(--ice-deep);
+  background: var(--accent-deep); color: #fff; font-weight: 560; font-size: .95rem;
+  border: 1px solid var(--accent-deep);
 }
 .cta:hover { text-decoration: none; filter: brightness(1.12); }
 .cta.ghost { background: none; color: var(--ink-dim); border-color: var(--line); }
@@ -149,7 +150,7 @@ h2 {
   gap: .55rem; padding: .8rem 0; border-bottom: 1px solid var(--line-soft);
 }
 .values li:first-child { border-top: 1px solid var(--line-soft); }
-.chev { color: var(--ice); }
+.chev { color: var(--accent); }
 .values b { font-weight: 600; white-space: nowrap; }
 .values em { color: var(--ink-dim); font-style: normal; }
 .note { color: var(--ink-faint); max-width: 44rem; margin: 0; font-size: .95rem; }
@@ -161,7 +162,7 @@ h2 {
 .group { margin-bottom: 2.8rem; }
 .group h3 {
   font-size: .8rem; text-transform: uppercase; letter-spacing: .12em;
-  color: var(--ice); margin: 0 0 .25rem; font-weight: 600;
+  color: var(--accent); margin: 0 0 .25rem; font-weight: 600;
 }
 .group .blurb { color: var(--ink-faint); font-size: .9rem; margin: 0 0 1rem; }
 
@@ -175,8 +176,8 @@ h2 {
   color: inherit;
 }
 .card:hover {
-  text-decoration: none; border-color: var(--ice-deep);
-  background: color-mix(in srgb, var(--bg-raise) 84%, var(--ice-deep));
+  text-decoration: none; border-color: var(--accent-deep);
+  background: color-mix(in srgb, var(--bg-raise) 84%, var(--accent-deep));
 }
 .card .name {
   font-weight: 600; font-size: .95rem; color: var(--ink);

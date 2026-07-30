@@ -2,7 +2,7 @@
 // Builds dist/ from src/ + the live repo list for the org.
 // No dependencies: node >= 18 for global fetch.
 
-import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, copyFile, readdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -163,7 +163,11 @@ if (page.includes('—')) {
 await mkdir(join(ROOT, 'dist'), { recursive: true });
 await writeFile(join(ROOT, 'dist/index.html'), page);
 await copyFile(join(ROOT, 'src/styles.css'), join(ROOT, 'dist/styles.css'));
-await writeFile(join(ROOT, 'dist/.nojekyll'), '');
+
+// Everything in src/static is served at the site root.
+for (const file of await readdir(join(ROOT, 'src/static'))) {
+  await copyFile(join(ROOT, 'src/static', file), join(ROOT, 'dist', file));
+}
 
 if (dashed.length) {
   console.warn(`! em dashes normalised in descriptions for: ${[...new Set(dashed)].join(', ')}`);
