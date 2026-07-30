@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Night's Watch — the people who hold the web3 data layer</title>
+<meta name="description" content="An open community for the people who build and hold the data layer of web3: indexers, node and data-service operators, protocol and dapp devs, and anyone serious about decentralised, verifiable, public data.">
+<link rel="canonical" href="https://nightswatchhq.github.io/nightswatch-landing/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Night's Watch">
+<meta property="og:description" content="The realm runs on data. Someone has to keep it flowing. An open community for the people who build and hold the data layer of web3.">
+<meta property="og:url" content="https://nightswatchhq.github.io/nightswatch-landing/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%94%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<a class="skip" href="#watch">Skip to content</a>
+
+<header class="topbar">
+  <svg class="mark" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor"
+       stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+    <path d="M4.5 3.5 15 19M19.5 3.5 9 19"/><path d="M12.6 15.4 18.5 13.6M11.4 15.4 5.5 13.6"/>
+  </svg>
+  <span class="wordmark">the night's watch</span>
+  <nav>
+    <a href="#values">values</a>
+    <a href="#work">work</a>
+    <a href="https://github.com/nightswatchhq">github</a>
+    <a class="cta-sm" href="{{DISCORD}}">join</a>
+  </nav>
+  <button id="theme" type="button" aria-label="Toggle colour theme" title="Toggle colour theme">◐</button>
+</header>
+
+<main id="watch">
+
+  <section class="hero">
+    <p class="eyebrow">open community · no gatekeeping · no banner</p>
+    <h1>The realm runs on data.<br><span class="dim">Someone has to keep it flowing.</span></h1>
+    <p class="lede">
+      Indexing it, serving it, maintaining the services that decentralised apps depend on —
+      no matter which way the winds are blowing that week.
+    </p>
+    <p class="thats-us">That's us.</p>
+    <div class="actions">
+      <a class="cta" href="{{DISCORD}}">Join the Watch on Discord</a>
+      <a class="cta ghost" href="#work">See what we're building</a>
+    </div>
+  </section>
+
+  <section class="creed">
+    <p>
+      The Night's Watch is an open community for the people who build and hold the
+      <strong>data layer of web3</strong>: indexers, node and data-service operators,
+      protocol and dapp devs, delegators, curators, and anyone serious about
+      decentralised, verifiable, public data.
+    </p>
+    <p>
+      We're here to ship and to maintain — to help each other run things well, prototype
+      new services, keep the lights on, and bring more people into the work.
+    </p>
+  </section>
+
+  <section id="values" class="values">
+    <h2>What we value</h2>
+    <ul>
+      <li><span class="chev">›</span><b>Build and maintain</b><em>Doers over talkers.</em></li>
+      <li><span class="chev">›</span><b>Help freely</b><em>The Watch looks after its own.</em></li>
+      <li><span class="chev">›</span><b>Mission over politics</b><em>We hold the wall for the realm, not for any one house.</em></li>
+      <li><span class="chev">›</span><b>Open by default</b><em>Code, docs, and knowledge in the open.</em></li>
+    </ul>
+    <p class="note">
+      We're mission-first and not a faction. Everyone serious about the mission is welcome
+      here, whatever banner they also fly.
+    </p>
+  </section>
+
+  <section id="work" class="work">
+    <h2>The work</h2>
+    <p class="sub">
+      {{REPO_COUNT}} open repositories across indexing, data services, gateways, languages and
+      operator tooling. All of it public, all of it running somewhere.
+    </p>
+{{REPOS}}
+  </section>
+
+  <section class="join">
+    <h2>Take the black</h2>
+    <p>
+      No application, no vetting, no fee. If you run infrastructure, write the code that
+      indexes it, or just want to learn how any of this actually works — there's a seat.
+    </p>
+    <a class="cta" href="{{DISCORD}}">Join the Discord</a>
+  </section>
+
+</main>
+
+<footer>
+  <p class="sigil">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+         stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+      <path d="M4.5 3.5 15 19M19.5 3.5 9 19"/><path d="M12.6 15.4 18.5 13.6M11.4 15.4 5.5 13.6"/>
+    </svg>
+    the night's watch
+  </p>
+  <p class="links">
+    <a href="https://github.com/nightswatchhq">github.com/nightswatchhq</a> ·
+    <a href="{{DISCORD}}">discord</a>
+  </p>
+  <p class="stamp">Repository list generated {{GENERATED}}.</p>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement, KEY = 'ntw-theme';
+  try { var s = localStorage.getItem(KEY); if (s) root.setAttribute('data-theme', s); } catch (e) {}
+  document.getElementById('theme').addEventListener('click', function () {
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem(KEY, next); } catch (e) {}
+  });
+})();
+</script>
+
+</body>
+</html>

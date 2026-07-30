@@ -1,0 +1,42 @@
+{
+  "_comment": "Groups the org's repos for the landing page. Repos not listed here fall into 'Other'. Order of groups here is the order they render.",
+  "groups": [
+    {
+      "id": "indexing",
+      "title": "Indexing",
+      "blurb": "Run your own index. No rented middleman between you and the chain.",
+      "repos": ["nuthatch", "nuthatch-frontend", "nests", "uniswap-v3", "horizon-nest", "livepeer-nest", "camp-node", "amp-client"]
+    },
+    {
+      "id": "data-services",
+      "title": "Data services",
+      "blurb": "Paid, verifiable data endpoints — the plumbing and the services built on it.",
+      "repos": ["horizon-core", "horizon-skills", "dispatch", "camp", "camp-data-service", "seahorn", "compass", "hermit-ds", "FHSCE", "SDSCE", "wsaas", "hello-data-service", "vince-data-service"]
+    },
+    {
+      "id": "gateways",
+      "title": "Gateways & routing",
+      "blurb": "Serving queries, settling payments, keeping the lights on.",
+      "repos": ["gib", "gib-skill", "gateway", "candidate-selection", "foghorn"]
+    },
+    {
+      "id": "languages",
+      "title": "Languages & SDKs",
+      "blurb": "Better ways to author the things that index.",
+      "repos": ["redstart", "graphite", "liminal", "horizon-indexer-performance-redstart"]
+    },
+    {
+      "id": "tooling",
+      "title": "Operator tooling",
+      "blurb": "Diagnostics and sharp edges for people running real infrastructure.",
+      "repos": ["horizon-doctor", "reo-doctor", "indexer-gateway-auth", "swissindexingknife", "lodestar"]
+    },
+    {
+      "id": "protocol",
+      "title": "Protocol",
+      "blurb": "Experiments in how the incentives themselves should work.",
+      "repos": ["polaris"]
+    }
+  ],
+  "hide": ["amp", "nightswatch-landing"]
+}
