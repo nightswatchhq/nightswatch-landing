@@ -10,7 +10,7 @@
     {
       "id": "data-services",
       "title": "Data services",
-      "blurb": "Paid, verifiable data endpoints — the plumbing and the services built on it.",
+      "blurb": "Paid, verifiable data endpoints: the plumbing and the services built on it.",
       "repos": ["horizon-core", "horizon-skills", "dispatch", "camp", "camp-data-service", "seahorn", "compass", "hermit-ds", "FHSCE", "SDSCE", "wsaas", "hello-data-service", "vince-data-service"]
     },
     {

@@ -1,0 +1,298 @@
+[
+  {
+    "name": "amp-client",
+    "html_url": "https://github.com/nightswatchhq/amp-client",
+    "description": "Rust client for the Amp blockchain database (Arrow Flight gRPC)",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-04-02T15:44:59Z"
+  },
+  {
+    "name": "camp",
+    "html_url": "https://github.com/nightswatchhq/camp",
+    "description": "Free Dune-class data API for Arbitrum One 🏕️ ",
+    "language": "CSS",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:02Z"
+  },
+  {
+    "name": "camp-data-service",
+    "html_url": "https://github.com/nightswatchhq/camp-data-service",
+    "description": "Turns a self-hosted camp instance into a paid provider on Graph Horizon. TAP (GraphTally) receipts in, GRT collected on-chain on Arbitrum One.",
+    "language": "Solidity",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:05Z"
+  },
+  {
+    "name": "camp-node",
+    "html_url": "https://github.com/nightswatchhq/camp-node",
+    "description": "The indexing engine behind camp / engine.camp. A source-built ETL engine for blockchain data (EVM RPC to DataFusion SQL to Parquet to Arrow Flight/JSONL). Built on Edge & Node's Amp, BUSL-1.1.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-06-10T09:31:48Z"
+  },
+  {
+    "name": "candidate-selection",
+    "html_url": "https://github.com/nightswatchhq/candidate-selection",
+    "description": "Fork of edgeandnode/candidate-selection with runtime-configurable indexer-selection weights (gib)",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-09T15:30:44Z"
+  },
+  {
+    "name": "compass",
+    "html_url": "https://github.com/nightswatchhq/compass",
+    "description": "A decentralised Subgraph-MCP gateway as a Horizon data service. Every subgraph becomes a pay-per-call MCP tool for AI agents, settled in GRT or USDC.",
+    "language": "Solidity",
+    "stargazers_count": 0,
+    "pushed_at": "2026-06-10T13:59:42Z"
+  },
+  {
+    "name": "dispatch",
+    "html_url": "https://github.com/nightswatchhq/dispatch",
+    "description": "Dispatch is a decentralised JSON-RPC service built on The Graph Protocol’s Horizon framework",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-06-10T13:59:44Z"
+  },
+  {
+    "name": "FHSCE",
+    "html_url": "https://github.com/nightswatchhq/FHSCE",
+    "description": "File Hosting Service, Community Edition. A Horizon-native, TAP v2 (GraphTally) paid data service for trust-minimised chunked file sharing. Forked from graphops/file-hosting-service and brought onto Arbitrum One.",
+    "language": "Makefile",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:58:59Z"
+  },
+  {
+    "name": "foghorn",
+    "html_url": "https://github.com/nightswatchhq/foghorn",
+    "description": "A network-quality judge for The Graph. Block-pinned GraphQL probes and JCS hashing catch indexers serving confident, well-formed garbage.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T15:12:47Z"
+  },
+  {
+    "name": "gateway",
+    "html_url": "https://github.com/nightswatchhq/gateway",
+    "description": "lodestar-gateway, an independent self-funded Graph Network gateway for Arbitrum One, post-Horizon. Fork of edgeandnode/gateway.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:09Z"
+  },
+  {
+    "name": "gib",
+    "html_url": "https://github.com/nightswatchhq/gib",
+    "description": "Gateway-in-a-Box: a self-hostable Graph Protocol subgraph gateway for Horizon / Arbitrum One",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:13Z"
+  },
+  {
+    "name": "gib-skill",
+    "html_url": "https://github.com/nightswatchhq/gib-skill",
+    "description": "Claude Code concierge for deploying & validating a Graph Horizon gateway with gib. Sibling to lodestone.",
+    "language": "Shell",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:15Z"
+  },
+  {
+    "name": "graphite",
+    "html_url": "https://github.com/nightswatchhq/graphite",
+    "description": "A Rust SDK for building subgraphs on The Graph",
+    "language": "Rust",
+    "stargazers_count": 1,
+    "pushed_at": "2026-04-16T08:54:22Z"
+  },
+  {
+    "name": "hello-data-service",
+    "html_url": "https://github.com/nightswatchhq/hello-data-service",
+    "description": "Minimal Horizon data service reference implementation, companion to the Lodestar guide.",
+    "language": "Solidity",
+    "stargazers_count": 0,
+    "pushed_at": "2026-04-24T10:00:39Z"
+  },
+  {
+    "name": "hermit-ds",
+    "html_url": "https://github.com/nightswatchhq/hermit-ds",
+    "description": "The inverse analytics service: indexes wallets that have gone quiet, serves wake alerts when they stir. A Graph Horizon data service generated entirely by lodestone.",
+    "language": "Solidity",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:24Z"
+  },
+  {
+    "name": "horizon-core",
+    "html_url": "https://github.com/nightswatchhq/horizon-core",
+    "description": "Reusable building blocks for The Graph Horizon data services: TAP v2 receipt validation, RAV aggregation, on-chain collection, persistence, and a generic TAP-gated reverse proxy.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:26Z"
+  },
+  {
+    "name": "horizon-doctor",
+    "html_url": "https://github.com/nightswatchhq/horizon-doctor",
+    "description": "Read-only preflight and migration validation CLI for the Graph indexer stack (Horizon). Turns the Horizon-era startup panic into a controlled, explained gate.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:28Z"
+  },
+  {
+    "name": "horizon-indexer-performance-redstart",
+    "html_url": "https://github.com/nightswatchhq/horizon-indexer-performance-redstart",
+    "description": "Subgraph for The Graph Horizon (Arbitrum One), authored in Redstart. A port of PaulieB14/horizon-indexer-subgraph, live on Subgraph Studio.",
+    "language": "Red",
+    "stargazers_count": 0,
+    "pushed_at": "2026-06-26T10:12:40Z"
+  },
+  {
+    "name": "horizon-nest",
+    "html_url": "https://github.com/nightswatchhq/horizon-nest",
+    "description": "A nuthatch nest: The Graph Protocol Horizon staking on Arbitrum One (operators, allocations, delegations, indexer totals). Mirrors PaulieB14's subgraph.",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:30Z"
+  },
+  {
+    "name": "horizon-skills",
+    "html_url": "https://github.com/nightswatchhq/horizon-skills",
+    "description": "Distil a complete Graph Horizon data service from a short spec. Claude Code plugin (proxy + pipeline archetypes), built on horizon-core.",
+    "language": "Go Template",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:38Z"
+  },
+  {
+    "name": "indexer-gateway-auth",
+    "html_url": "https://github.com/nightswatchhq/indexer-gateway-auth",
+    "description": "An authenticating reverse proxy for the Graph Protocol Indexer Management API.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:34Z"
+  },
+  {
+    "name": "liminal",
+    "html_url": "https://github.com/nightswatchhq/liminal",
+    "description": "Polyglot, capability-isolated WASIp2 component runtime for streaming indexing pipelines on The Graph",
+    "language": "JavaScript",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:36Z"
+  },
+  {
+    "name": "livepeer-nest",
+    "html_url": "https://github.com/nightswatchhq/livepeer-nest",
+    "description": "A nuthatch nest: Livepeer protocol on Arbitrum One (transcoders, rounds, delegators, tickets, governance polls). Mirrors the official Livepeer subgraph.",
+    "language": null,
+    "stargazers_count": 1,
+    "pushed_at": "2026-07-28T09:23:19Z"
+  },
+  {
+    "name": "lodestar",
+    "html_url": "https://github.com/nightswatchhq/lodestar",
+    "description": "Lodestar 🌟 stay oriented",
+    "language": "TypeScript",
+    "stargazers_count": 5,
+    "pushed_at": "2026-07-30T15:13:48Z"
+  },
+  {
+    "name": "nests",
+    "html_url": "https://github.com/nightswatchhq/nests",
+    "description": "The index of prebuilt Nuthatch nests: packaged indexing definitions that replace a rented subgraph with a self-hosted one.",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:40Z"
+  },
+  {
+    "name": "nightswatch-landing",
+    "html_url": "https://github.com/nightswatchhq/nightswatch-landing",
+    "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
+    "language": "CSS",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T15:09:05Z"
+  },
+  {
+    "name": "nuthatch",
+    "html_url": "https://github.com/nightswatchhq/nuthatch",
+    "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
+    "language": "Rust",
+    "stargazers_count": 3,
+    "pushed_at": "2026-07-30T15:15:45Z"
+  },
+  {
+    "name": "nuthatch-frontend",
+    "html_url": "https://github.com/nightswatchhq/nuthatch-frontend",
+    "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
+    "language": "Astro",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:44Z"
+  },
+  {
+    "name": "polaris",
+    "html_url": "https://github.com/nightswatchhq/polaris",
+    "description": "Polaris: tokenless Horizon fork on Arbitrum One (wstETH stake, USDC payments, no inflation)",
+    "language": "Solidity",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-08T08:37:02Z"
+  },
+  {
+    "name": "redstart",
+    "html_url": "https://github.com/nightswatchhq/redstart",
+    "description": "the sexiest language for authoring The Graph subgraphs",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:46Z"
+  },
+  {
+    "name": "reo-doctor",
+    "html_url": "https://github.com/nightswatchhq/reo-doctor",
+    "description": "Read-only REO (Rewards Eligibility Oracle / GIP-0088) health check for The Graph indexers",
+    "language": "Shell",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:48Z"
+  },
+  {
+    "name": "SDSCE",
+    "html_url": "https://github.com/nightswatchhq/SDSCE",
+    "description": "Substreams Data Service Community Edition",
+    "language": "Go",
+    "stargazers_count": 0,
+    "pushed_at": "2026-06-04T14:29:19Z"
+  },
+  {
+    "name": "seahorn",
+    "html_url": "https://github.com/nightswatchhq/seahorn",
+    "description": "Solana structured data service on Graph Horizon. Indexes Solana program activity into typed, fork-correct entities, served over REST and paid per query in GRT.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:50Z"
+  },
+  {
+    "name": "swissindexingknife",
+    "html_url": "https://github.com/nightswatchhq/swissindexingknife",
+    "description": "sik, a CLI for Graph Protocol indexer operations that wraps every known API quirk so you never have to remember them. For human operators and AI agents alike.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:52Z"
+  },
+  {
+    "name": "uniswap-v3",
+    "html_url": "https://github.com/nightswatchhq/uniswap-v3",
+    "description": "A nuthatch nest: Uniswap V3 on Arbitrum. Every pool discovered from the factory, with swaps, prices, and volume. One binary, one config, SQL. No graph-node, no gateway.",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:56Z"
+  },
+  {
+    "name": "vince-data-service",
+    "html_url": "https://github.com/nightswatchhq/vince-data-service",
+    "description": "A real Horizon data service for locating individuals named Vince, worldwide",
+    "language": "Solidity",
+    "stargazers_count": 0,
+    "pushed_at": "2026-04-24T10:08:01Z"
+  },
+  {
+    "name": "wsaas",
+    "html_url": "https://github.com/nightswatchhq/wsaas",
+    "description": "WebSocket data service on Graph Horizon. Stream pre-parsed transfers, swaps and exchange events over one connection, gated by TAP v2 micropayments.",
+    "language": "Solidity",
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-30T14:59:58Z"
+  }
+]
