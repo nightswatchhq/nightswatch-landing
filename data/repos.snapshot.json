@@ -149,7 +149,7 @@
     "description": "A nuthatch nest: The Graph Protocol Horizon staking on Arbitrum One (operators, allocations, delegations, indexer totals). Mirrors PaulieB14's subgraph.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:30Z"
+    "pushed_at": "2026-07-31T12:13:28Z"
   },
   {
     "name": "horizon-skills",
@@ -197,7 +197,7 @@
     "description": "The index of prebuilt Nuthatch nests: packaged indexing definitions that replace a rented subgraph with a self-hosted one.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:40Z"
+    "pushed_at": "2026-07-31T12:10:22Z"
   },
   {
     "name": "nightswatch-landing",
@@ -205,7 +205,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T15:30:53Z"
+    "pushed_at": "2026-07-31T08:09:42Z"
   },
   {
     "name": "nuthatch",
@@ -213,7 +213,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 3,
-    "pushed_at": "2026-07-31T08:02:27Z"
+    "pushed_at": "2026-07-31T19:15:39Z"
   },
   {
     "name": "nuthatch-frontend",
@@ -222,6 +222,14 @@
     "language": "Astro",
     "stargazers_count": 0,
     "pushed_at": "2026-07-30T14:59:44Z"
+  },
+  {
+    "name": "poa-nest",
+    "html_url": "https://github.com/nightswatchhq/poa-nest",
+    "description": "A nuthatch nest: the POA DAO-tooling stack on Arbitrum One (orgs, roles via Hats, tasks, governance, paymaster). Replaces a subgraph stuck syncing for over a day - 848 events across 42.5M blocks, synced in 59 seconds.",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-07-31T11:50:55Z"
   },
   {
     "name": "polaris",
@@ -277,7 +285,7 @@
     "description": "A nuthatch nest: Uniswap V3 on Arbitrum. Every pool discovered from the factory, with swaps, prices, and volume. One binary, one config, SQL. No graph-node, no gateway.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:56Z"
+    "pushed_at": "2026-07-31T12:13:29Z"
   },
   {
     "name": "vince-data-service",
