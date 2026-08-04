@@ -197,7 +197,7 @@
     "description": "The index of prebuilt Nuthatch nests: packaged indexing definitions that replace a rented subgraph with a self-hosted one.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-03T08:20:08Z"
+    "pushed_at": "2026-08-03T16:52:28Z"
   },
   {
     "name": "nightswatch-landing",
@@ -205,7 +205,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-02T07:41:22Z"
+    "pushed_at": "2026-08-03T08:43:27Z"
   },
   {
     "name": "nuthatch",
@@ -213,7 +213,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 3,
-    "pushed_at": "2026-08-03T08:34:56Z"
+    "pushed_at": "2026-08-03T15:42:58Z"
   },
   {
     "name": "nuthatch-frontend",
@@ -221,7 +221,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-03T08:42:06Z"
+    "pushed_at": "2026-08-03T16:52:17Z"
   },
   {
     "name": "poa-nest",
