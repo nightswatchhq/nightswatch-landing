@@ -69,7 +69,7 @@
     "description": "A network-quality judge for The Graph. Block-pinned GraphQL probes and JCS hashing catch indexers serving confident, well-formed garbage.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T18:32:41Z"
+    "pushed_at": "2026-08-04T08:34:27Z"
   },
   {
     "name": "gateway",
@@ -85,7 +85,7 @@
     "description": "Gateway-in-a-Box: a self-hostable Graph Protocol subgraph gateway for Horizon / Arbitrum One",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:13Z"
+    "pushed_at": "2026-08-04T09:04:02Z"
   },
   {
     "name": "gib-skill",
@@ -189,7 +189,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-07-30T18:29:53Z"
+    "pushed_at": "2026-08-04T13:45:18Z"
   },
   {
     "name": "nests",
@@ -205,7 +205,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-03T08:43:27Z"
+    "pushed_at": "2026-08-04T07:48:25Z"
   },
   {
     "name": "nuthatch",
@@ -213,7 +213,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 3,
-    "pushed_at": "2026-08-03T15:42:58Z"
+    "pushed_at": "2026-08-04T21:33:25Z"
   },
   {
     "name": "nuthatch-frontend",
@@ -221,7 +221,15 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-03T16:52:17Z"
+    "pushed_at": "2026-08-04T18:08:32Z"
+  },
+  {
+    "name": "obib-case6",
+    "html_url": "https://github.com/nightswatchhq/obib-case6",
+    "description": "A nuthatch nest implementing OBIB case 6 (Uniswap V2 factory templates): 35,039 swaps from 232 pairs discovered at runtime, 49.5s, no handlers.",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-04T09:22:55Z"
   },
   {
     "name": "poa-nest",
