@@ -69,7 +69,7 @@
     "description": "A network-quality judge for The Graph. Block-pinned GraphQL probes and JCS hashing catch indexers serving confident, well-formed garbage.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-05T20:34:37Z"
+    "pushed_at": "2026-08-06T14:02:12Z"
   },
   {
     "name": "gateway",
@@ -149,7 +149,7 @@
     "description": "A nuthatch nest: The Graph Protocol Horizon staking on Arbitrum One (operators, allocations, delegations, indexer totals). Mirrors PaulieB14's subgraph.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-07-31T12:13:28Z"
+    "pushed_at": "2026-08-06T12:21:11Z"
   },
   {
     "name": "horizon-skills",
@@ -189,7 +189,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-06T07:07:05Z"
+    "pushed_at": "2026-08-06T13:14:27Z"
   },
   {
     "name": "nests",
@@ -205,7 +205,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-05T07:49:27Z"
+    "pushed_at": "2026-08-06T07:49:21Z"
   },
   {
     "name": "nuthatch",
@@ -213,7 +213,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 3,
-    "pushed_at": "2026-08-06T07:27:44Z"
+    "pushed_at": "2026-08-06T14:31:52Z"
   },
   {
     "name": "nuthatch-frontend",
@@ -221,7 +221,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-05T20:14:39Z"
+    "pushed_at": "2026-08-06T14:09:44Z"
   },
   {
     "name": "obib-case6",
@@ -293,7 +293,7 @@
     "description": "Pay The Graph's indexers directly with TAP receipts and query them, without a gateway.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-05T19:34:04Z"
+    "pushed_at": "2026-08-06T09:32:02Z"
   },
   {
     "name": "uniswap-v3",
