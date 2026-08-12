@@ -96,6 +96,14 @@
     "pushed_at": "2026-07-30T14:59:15Z"
   },
   {
+    "name": "graph-support",
+    "html_url": "https://github.com/nightswatchhq/graph-support",
+    "description": "Something in The Graph is broken and nobody is answering. Community triage: you get a root cause, a workaround, or the name of whoever can actually fix it.",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-11T09:39:06Z"
+  },
+  {
     "name": "graphite",
     "html_url": "https://github.com/nightswatchhq/graphite",
     "description": "A Rust SDK for building subgraphs on The Graph",
@@ -189,7 +197,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-07T09:15:06Z"
+    "pushed_at": "2026-08-11T11:53:51Z"
   },
   {
     "name": "nests",
@@ -205,7 +213,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-10T06:41:51Z"
+    "pushed_at": "2026-08-11T06:04:31Z"
   },
   {
     "name": "nuthatch",
@@ -213,7 +221,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 3,
-    "pushed_at": "2026-08-10T20:51:36Z"
+    "pushed_at": "2026-08-11T20:13:51Z"
   },
   {
     "name": "nuthatch-frontend",
