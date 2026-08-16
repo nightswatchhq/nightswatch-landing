@@ -69,7 +69,7 @@
     "description": "A network-quality judge for The Graph. Block-pinned GraphQL probes and JCS hashing catch indexers serving confident, well-formed garbage.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-07T09:18:26Z"
+    "pushed_at": "2026-08-15T20:50:18Z"
   },
   {
     "name": "gateway",
@@ -197,7 +197,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-11T11:53:51Z"
+    "pushed_at": "2026-08-15T20:55:47Z"
   },
   {
     "name": "nests",
@@ -213,15 +213,15 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-14T06:42:39Z"
+    "pushed_at": "2026-08-15T05:42:07Z"
   },
   {
     "name": "nuthatch",
     "html_url": "https://github.com/nightswatchhq/nuthatch",
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
-    "stargazers_count": 3,
-    "pushed_at": "2026-08-14T19:46:31Z"
+    "stargazers_count": 4,
+    "pushed_at": "2026-08-15T21:56:28Z"
   },
   {
     "name": "nuthatch-frontend",
@@ -229,7 +229,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-12T14:43:24Z"
+    "pushed_at": "2026-08-15T20:17:21Z"
   },
   {
     "name": "obib-case6",
