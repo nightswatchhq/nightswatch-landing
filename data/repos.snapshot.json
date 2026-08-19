@@ -132,7 +132,7 @@
     "html_url": "https://github.com/nightswatchhq/graph-support",
     "description": "Something in The Graph is broken and nobody is answering. Community triage: you get a root cause, a workaround, or the name of whoever can actually fix it.",
     "language": null,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "pushed_at": "2026-08-13T09:08:49Z"
   },
   {
@@ -237,7 +237,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-17T16:27:53Z"
+    "pushed_at": "2026-08-18T14:10:01Z"
   },
   {
     "name": "nests",
@@ -253,7 +253,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-17T05:50:40Z"
+    "pushed_at": "2026-08-18T05:45:12Z"
   },
   {
     "name": "nuthatch",
@@ -261,7 +261,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-08-16T14:29:33Z"
+    "pushed_at": "2026-08-18T18:54:51Z"
   },
   {
     "name": "nuthatch-ds",
@@ -269,7 +269,7 @@
     "description": null,
     "language": "Solidity",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-17T16:23:54Z"
+    "pushed_at": "2026-08-18T14:09:51Z"
   },
   {
     "name": "nuthatch-frontend",
@@ -277,7 +277,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-17T18:47:15Z"
+    "pushed_at": "2026-08-18T08:51:42Z"
   },
   {
     "name": "nuthatch-tui-client",
