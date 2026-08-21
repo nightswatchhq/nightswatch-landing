@@ -51,3 +51,7 @@ echo "all relative markdown links resolve"
 desc = "What a deploy needs to be true: data, links, build"
 depends = ["data", "links", "build"]
 run = []
+
+[tasks.mark]
+desc = "Redraw the sigil from scripts/make-mark.py"
+run = ["python3 scripts/make-mark.py"]

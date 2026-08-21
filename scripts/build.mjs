@@ -78,15 +78,52 @@ function noDash(text, repoName) {
   return text.replace(/\s*—\s*/g, ', ').replace(/,\s*,/g, ',');
 }
 
-function card(repo) {
-  const bits = [];
-  if (repo.language) bits.push(esc(repo.language));
-  if (repo.stargazers_count > 0) bits.push(`★ ${repo.stargazers_count}`);
-  return `        <a class="card" href="${esc(repo.html_url)}">
-          <div class="name">${esc(repo.name)}</div>
-          ${repo.description ? `<p class="desc">${esc(noDash(repo.description, repo.name))}</p>` : ''}
-          ${bits.length ? `<div class="meta">${bits.map((b) => `<span>${b}</span>`).join('')}</div>` : ''}
+// House style also bans emoji. Same reasoning as em dashes: a description edit on
+// GitHub should not be able to put one on the page.
+const emojid = [];
+const EMOJI = /[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}\u{2190}-\u{21FF}]/gu;
+function noEmoji(text, repoName) {
+  if (!text || !EMOJI.test(text)) return text;
+  emojid.push(repoName);
+  return text.replace(EMOJI, '').replace(/\s{2,}/g, ' ').trim();
+}
+
+function clean(text, repoName) {
+  return noEmoji(noDash(text, repoName), repoName);
+}
+
+// Descriptions run long. Trim on a word boundary rather than mid-word.
+function clip(text, n) {
+  if (!text || text.length <= n) return text;
+  const cut = text.slice(0, n);
+  const sp = cut.lastIndexOf(' ');
+  return (sp > n * 0.6 ? cut.slice(0, sp) : cut).replace(/[,.;:]$/, '') + '…';
+}
+
+// A flagship, in the bento. The first one spans four columns, the rest two.
+function cell(repo, tag, wide) {
+  const desc = clip(clean(repo.description, repo.name), wide ? 220 : 130);
+  const meta = [];
+  if (repo.language) meta.push(esc(repo.language));
+  if (repo.stargazers_count > 0) meta.push(`${repo.stargazers_count} stars`);
+  return `        <a class="cell ${wide ? 'c-feature' : 'c-third'}" href="${esc(repo.html_url)}" data-reveal>
+          <div>
+            ${tag ? `<span class="tag">${esc(tag)}</span>` : ''}
+            <div class="name">${esc(repo.name)}</div>
+            ${desc ? `<p>${esc(desc)}</p>` : ''}
+          </div>
+          ${meta.length ? `<div class="meta">${meta.map((b) => `<span>${b}</span>`).join('')}</div>` : ''}
         </a>`;
+}
+
+// Everything else, as one compact line: name, description, language.
+function row(repo) {
+  const desc = clip(clean(repo.description, repo.name), 90);
+  return `          <a class="row" href="${esc(repo.html_url)}">
+            <span class="rname">${esc(repo.name)}</span>
+            <span class="rdesc">${esc(desc || '')}</span>
+            ${repo.language ? `<span class="rlang">${esc(repo.language)}</span>` : ''}
+          </a>`;
 }
 
 function render(repos, cfg) {
@@ -94,6 +131,18 @@ function render(repos, cfg) {
   const hidden = new Set((cfg.hide || []).map((n) => n.toLowerCase()));
   const claimed = new Set(hidden);
   const sections = [];
+
+  // The bento leads. Featured repos are claimed so they do not appear twice.
+  const featured = (cfg.feature || [])
+    .map((f, i) => {
+      const repo = byName.get(f.repo.toLowerCase());
+      if (!repo) { console.warn(`! featured repo not in the org: ${f.repo}`); return null; }
+      claimed.add(f.repo.toLowerCase());
+      return cell(repo, f.tag, i === 0);
+    })
+    .filter(Boolean)
+    .join('\n');
+
 
   for (const g of cfg.groups) {
     const picked = g.repos
@@ -103,13 +152,13 @@ function render(repos, cfg) {
       })
       .filter(Boolean);
     if (!picked.length) continue;
-    sections.push(`      <div class="group">
-        <h3>${esc(g.title)}</h3>
-        <p class="blurb">${esc(g.blurb)}</p>
-        <div class="grid">
-${picked.map(card).join('\n')}
-        </div>
-      </div>`);
+    sections.push(`        <div class="group" data-reveal>
+          <h3>${esc(g.title)}</h3>
+          <p class="blurb">${esc(g.blurb)}</p>
+          <div class="rows">
+${picked.map(row).join('\n')}
+          </div>
+        </div>`);
   }
 
   // Anything new in the org that nobody has categorised yet still shows up.
@@ -117,18 +166,23 @@ ${picked.map(card).join('\n')}
     .filter((r) => !claimed.has(r.name.toLowerCase()))
     .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
   if (rest.length) {
-    sections.push(`      <div class="group">
-        <h3>Also in the org</h3>
-        <p class="blurb">Newer or uncategorised work.</p>
-        <div class="grid">
-${rest.map(card).join('\n')}
-        </div>
-      </div>`);
+    sections.push(`        <div class="group" data-reveal>
+          <h3>Also in the org</h3>
+          <p class="blurb">Newer or uncategorised work.</p>
+          <div class="rows">
+${rest.map(row).join('\n')}
+          </div>
+        </div>`);
   }
 
   const shown = repos.filter((r) => !hidden.has(r.name.toLowerCase())).length;
-  return { html: sections.join('\n'), count: shown };
+  const langs = {};
+  for (const r of repos) if (r.language) langs[r.language] = (langs[r.language] || 0) + 1;
+  return { html: sections.join('\n'), featured, count: shown, langs };
 }
+
+const generatedISO = process.env.SOURCE_DATE || new Date().toISOString();
+const generated = generatedISO.slice(0, 10);
 
 // `--snapshot` refreshes the committed repo list and stops; the daily workflow uses it.
 if (process.argv.includes('--snapshot')) {
@@ -141,12 +195,40 @@ if (process.argv.includes('--snapshot')) {
 
 const { repos, source } = await getRepos();
 const cfg = JSON.parse(await readFile(join(ROOT, 'data/categories.json'), 'utf8'));
-const { html, count } = render(repos, cfg);
+const { html, featured, count, langs } = render(repos, cfg);
 
-const generated = (process.env.SOURCE_DATE || new Date().toISOString()).slice(0, 10);
+// The terminal in the hero shows real `gh` output. Build the language lines from
+// the same data the page is generated from, so the transcript cannot drift away
+// from the truth the way a hand-written one would.
+const ORG_OPENED = Date.UTC(2026, 4, 8);   // 8 May 2026, when the org was created
+const orgDays = Math.floor((Date.parse(generatedISO) - ORG_OPENED) / 86400000);
+const langLines = Object.entries(langs)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .slice(0, 5)
+  .map(([lang, n]) => {
+    const pad = ' '.repeat(Math.max(0, 4 - String(n).length));
+    return `            <div class="tline tline--out"><span class="tline-body">${pad}` +
+           `<span class="n">${n}</span> ${esc(lang)}</span></div>`;
+  })
+  .join('\n');
+// The same counts again as prose, for the screen reader on the terminal panel.
+const langProse = Object.entries(langs)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .slice(0, 5)
+  .map(([lang, n]) => `${n} ${lang}`)
+  .join(', ');
+
 const page = (await readFile(join(ROOT, 'src/index.template.html'), 'utf8'))
   .replaceAll('{{REPOS}}', html)
+  .replaceAll('{{FEATURED}}', featured)
+  .replaceAll('{{FEATURE_COUNT}}', ['Nought','One','Two','Three','Four','Five','Six','Seven','Eight'][(cfg.feature || []).length] || String((cfg.feature || []).length))
+  .replaceAll('{{LANG_LINES}}', langLines)
+  .replaceAll('{{LANG_PROSE}}', esc(langProse))
   .replaceAll('{{REPO_COUNT}}', String(count))
+  .replaceAll('{{REPO_LIVE}}', String(repos.length))
+  .replaceAll('{{RUST_COUNT}}', String(langs.Rust || 0))
+  .replaceAll('{{SOLIDITY_COUNT}}', String(langs.Solidity || 0))
+  .replaceAll('{{ORG_DAYS}}', String(orgDays))
   .replaceAll('{{DISCORD}}', esc(DISCORD))
   .replaceAll('{{SITE_URL}}', esc(SITE_URL))
   .replaceAll('{{GENERATED}}', generated);
@@ -165,12 +247,17 @@ await writeFile(join(ROOT, 'dist/index.html'), page);
 await copyFile(join(ROOT, 'src/styles.css'), join(ROOT, 'dist/styles.css'));
 
 // Everything in src/static is served at the site root.
-for (const file of await readdir(join(ROOT, 'src/static'))) {
-  await copyFile(join(ROOT, 'src/static', file), join(ROOT, 'dist', file));
+for (const entry of await readdir(join(ROOT, 'src/static'), { withFileTypes: true })) {
+  if (!entry.isFile()) continue;   // src/static is flat by design; skip anything else
+  await copyFile(join(ROOT, 'src/static', entry.name), join(ROOT, 'dist', entry.name));
 }
 
 if (dashed.length) {
   console.warn(`! em dashes normalised in descriptions for: ${[...new Set(dashed)].join(', ')}`);
+  console.warn('  fix them on GitHub so the source text matches the site.');
+}
+if (emojid.length) {
+  console.warn(`! emoji stripped from descriptions for: ${[...new Set(emojid)].join(', ')}`);
   console.warn('  fix them on GitHub so the source text matches the site.');
 }
 

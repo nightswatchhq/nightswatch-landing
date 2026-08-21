@@ -10,114 +10,257 @@
 <meta property="og:title" content="The Night's Watch">
 <meta property="og:description" content="The realm runs on data. Someone has to keep it flowing. An open community for the people who build and hold the data layer of web3.">
 <meta property="og:url" content="{{SITE_URL}}/">
+<meta property="og:image" content="{{SITE_URL}}/logo.png">
 <meta name="twitter:card" content="summary_large_image">
+
+<link rel="preload" href="./space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="icon" type="image/svg+xml" href="./mark.svg">
 <link rel="icon" type="image/png" href="./mark.png">
 <link rel="apple-touch-icon" href="./logo.png">
-<meta name="theme-color" content="#06041c" media="(prefers-color-scheme: dark)">
-<meta name="theme-color" content="#f8f7fc" media="(prefers-color-scheme: light)">
-<meta property="og:image" content="{{SITE_URL}}/logo.png">
+<meta name="theme-color" content="#171614" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)">
 <link rel="stylesheet" href="./styles.css">
+<script>
+  // Read the theme before first paint so a chosen light theme does not flash dark.
+  try { var t = localStorage.getItem('ntw-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+</script>
 </head>
 <body>
 
 <a class="skip" href="#watch">Skip to content</a>
 
 <header class="topbar">
-  <img class="mark" src="./mark.png" width="26" height="26" alt="" decoding="async">
+ <div class="topbar-inner">
+  <img class="mark" src="./mark-inline.svg" width="26" height="26" alt="" decoding="async">
   <span class="wordmark">the night's watch</span>
   <nav>
     <a href="#values">values</a>
     <a href="#work">work</a>
+    <a href="#who">who</a>
     <a href="https://github.com/nightswatchhq">github</a>
     <a class="cta-sm" href="{{DISCORD}}">join</a>
   </nav>
-  <button id="theme" type="button" aria-label="Toggle colour theme" title="Toggle colour theme">◐</button>
+  <button id="theme" type="button" aria-label="Toggle colour theme">theme</button>
+ </div>
 </header>
 
 <main id="watch">
 
+  <!-- HERO -->
   <section class="hero">
-    <p class="eyebrow">open community · no gatekeeping · no banner</p>
-    <h1>The realm runs on data.<br><span class="dim">Someone has to keep it flowing.</span></h1>
-    <p class="lede">
-      Indexing it, serving it, maintaining the services that decentralised apps depend on,
-      no matter which way the winds are blowing that week.
-    </p>
-    <p class="thats-us">That's us.</p>
-    <div class="actions">
-      <a class="cta" href="{{DISCORD}}">Join the Watch on Discord</a>
-      <a class="cta ghost" href="#work">See what we're building</a>
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow rise rise-1"><span class="dot"></span>open community · no gatekeeping · no banner</span>
+        <h1 class="rise rise-2">The realm runs on data.<br><span class="dim">Someone has to keep it flowing.</span></h1>
+        <p class="lede rise rise-2">
+          Indexing it, serving it, maintaining the services that decentralised apps
+          depend on, no matter which way the winds are blowing that week. That's us.
+        </p>
+        <div class="actions rise rise-3">
+          <a class="cta" href="{{DISCORD}}">Join the Watch on Discord</a>
+          <a class="cta ghost" href="#work">See what we're building</a>
+        </div>
+      </div>
+
+      <div class="rise rise-3">
+        <div class="term" role="img" aria-label="Terminal transcript counting the organisation's public repositories, which is {{REPO_LIVE}}, and then their languages: {{LANG_PROSE}}.">
+          <div class="term-bar">
+            <span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="term-title">nightswatchhq - zsh - 88×12</span>
+          </div>
+          <!-- Real output, run on {{GENERATED}}. Paste either line into a shell. -->
+          <div class="term-body" aria-hidden="true">
+            <div class="tline"><span class="tline-pre pre-cmd">$</span><span class="tline-body">gh api orgs/nightswatchhq --jq .public_repos</span></div>
+            <div class="tline tline--out"><span class="tline-body"><span class="n">{{REPO_LIVE}}</span></span></div>
+            <div class="tline"><span class="tline-pre pre-cmd">$</span><span class="tline-body">gh api orgs/nightswatchhq/repos --paginate \</span></div>
+            <div class="tline"><span class="tline-pre"> </span><span class="tline-body">   --jq '.[]|select(.fork|not)|.language' \</span></div>
+            <div class="tline"><span class="tline-pre"> </span><span class="tline-body">   | sort | uniq -c | sort -rn</span></div>
+{{LANG_LINES}}
+            <div class="tline"><span class="tline-pre pre-cmd">$</span><span class="tline-body"><span class="term-cursor">&#9608;</span></span></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- PROOF -->
+  <section class="proof">
+    <div class="wrap proof-grid">
+      <div class="stat" data-reveal>
+        <div class="n">{{REPO_COUNT}}<span> repos</span></div>
+        <div class="l">All public. Nothing behind a login, a form, or a waiting list.</div>
+      </div>
+      <div class="stat" data-reveal>
+        <div class="n">{{RUST_COUNT}}<span> in Rust</span></div>
+        <div class="l">Then {{SOLIDITY_COUNT}} in Solidity. Indexers and contracts, mostly.</div>
+      </div>
+      <div class="stat" data-reveal>
+        <div class="n">{{ORG_DAYS}}<span> days</span></div>
+        <div class="l">Since the org was opened on 8 May 2026. All of that in the open.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE CREED -->
   <section class="creed">
-    <p>
-      The Night's Watch is an open community for the people who build and hold the
-      <strong>data layer of web3</strong>: indexers, node and data-service operators,
-      protocol and dapp devs, delegators, curators, and anyone serious about
-      decentralised, verifiable, public data.
-    </p>
-    <p>
-      We're here to ship and to maintain: to help each other run things well, prototype
-      new services, keep the lights on, and bring more people into the work.
-    </p>
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="kicker">The creed</p>
+        <h2>An open community, not a faction.</h2>
+      </div>
+      <div data-reveal>
+        <p>
+          The Night's Watch is for the people who build and hold the
+          <strong>data layer of web3</strong>: indexers, node and data-service
+          operators, protocol and dapp devs, delegators, curators, and anyone
+          serious about decentralised, verifiable, public data.
+        </p>
+        <p>
+          We're here to ship and to maintain: to help each other run things well,
+          prototype new services, keep the lights on, and bring more people into
+          the work.
+        </p>
+      </div>
+    </div>
   </section>
 
+  <!-- VALUES -->
   <section id="values" class="values">
-    <h2>What we value</h2>
-    <ul>
-      <li><span class="chev">›</span><b>Build and maintain</b><em>Doers over talkers.</em></li>
-      <li><span class="chev">›</span><b>Help freely</b><em>The Watch looks after its own.</em></li>
-      <li><span class="chev">›</span><b>Mission over politics</b><em>We hold the wall for the realm, not for any one house.</em></li>
-      <li><span class="chev">›</span><b>Open by default</b><em>Code, docs, and knowledge in the open.</em></li>
-    </ul>
-    <p class="note">
-      We're mission-first and not a faction. Everyone serious about the mission is welcome
-      here, whatever banner they also fly.
-    </p>
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="kicker">What we value</p>
+        <h2>Four things, and we mean them.</h2>
+      </div>
+      <ul data-reveal>
+        <li><span class="chev">&rsaquo;</span><b>Build and maintain</b><em>Doers over talkers.</em></li>
+        <li><span class="chev">&rsaquo;</span><b>Help freely</b><em>The Watch looks after its own.</em></li>
+        <li><span class="chev">&rsaquo;</span><b>Mission over politics</b><em>We hold the wall for the realm, not for any one house.</em></li>
+        <li><span class="chev">&rsaquo;</span><b>Open by default</b><em>Code, docs, and knowledge in the open.</em></li>
+      </ul>
+      <p class="note" data-reveal>
+        We're mission-first and not a faction. Everyone serious about the mission is
+        welcome here, whatever banner they also fly.
+      </p>
+    </div>
   </section>
 
+  <!-- THE WORK -->
   <section id="work" class="work">
-    <h2>The work</h2>
-    <p class="sub">
-      {{REPO_COUNT}} open repositories across indexing, data services, gateways, languages and
-      operator tooling. All of it public, all of it running somewhere.
-    </p>
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="kicker">The work</p>
+        <h2>{{REPO_COUNT}} repositories, all of them running somewhere.</h2>
+        <p class="sub">
+          Indexing, data services, gateways, languages and operator tooling.
+          {{FEATURE_COUNT}} of them lead; the rest are listed below, and every one is public.
+        </p>
+      </div>
+
+      <div class="bento">
+{{FEATURED}}
+      </div>
+
+      <div class="rest">
 {{REPOS}}
+      </div>
+
+      <p class="all-repos" data-reveal>
+        <a href="https://github.com/nightswatchhq">Every repository on GitHub &rsaquo;</a>
+      </p>
+    </div>
   </section>
 
+  <!-- WHO IT IS FOR -->
+  <section id="who">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="kicker">Before you join</p>
+        <h2>Who this is for, and who it isn't.</h2>
+        <p class="sub">
+          The second column is the useful one. Nobody is turned away, but it saves
+          you an evening finding out.
+        </p>
+      </div>
+      <div class="scope" data-reveal>
+        <div class="scope-col">
+          <p class="scope-label scope-label--in">For</p>
+          <ul>
+            <li>Indexers and node operators, running things in production</li>
+            <li>People building data services, gateways and the plumbing under them</li>
+            <li>Protocol and dapp devs who depend on the data layer holding</li>
+            <li>Delegators and curators who want to understand what they are backing</li>
+            <li>Anyone who would rather read the source than the announcement</li>
+          </ul>
+        </div>
+        <div class="scope-col">
+          <p class="scope-label scope-label--out">Not for</p>
+          <ul>
+            <li>Price talk. There are a thousand rooms for that and this is not one</li>
+            <li>Recruiting for a faction, a token, or a governance slate</li>
+            <li>Support-desk expectations. Everyone here is a volunteer with a day job</li>
+            <li>Anyone who needs the answer within the hour</li>
+            <li>Shilling, in any of its costumes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSE -->
   <section class="join">
-    <h2>Take the black</h2>
-    <p>
-      No application, no vetting, no fee. If you run infrastructure, write the code that
-      indexes it, or just want to learn how any of this actually works, there's a seat.
-    </p>
-    <a class="cta" href="{{DISCORD}}">Join the Discord</a>
+    <div class="wrap">
+      <div data-reveal>
+        <p class="kicker">Take the black</p>
+        <h2>No application. No fee.</h2>
+        <p>
+          If you run infrastructure, write the code that indexes it, or just want to
+          learn how any of this actually works, there's a seat.
+        </p>
+        <a class="cta" href="{{DISCORD}}">Join the Discord</a>
+      </div>
+    </div>
   </section>
 
 </main>
 
 <footer>
-  <p class="sigil">
-    <img src="./mark.png" width="18" height="18" alt="" decoding="async">
-    the night's watch
-  </p>
-  <p class="links">
-    <a href="https://github.com/nightswatchhq">github.com/nightswatchhq</a> ·
-    <a href="{{DISCORD}}">discord</a>
-  </p>
-  <p class="stamp">Repository list generated {{GENERATED}}.</p>
+  <div class="wrap foot">
+    <span class="sigil">
+      <img src="./mark-inline.svg" width="20" height="20" alt="" decoding="async">
+      the night's watch
+    </span>
+    <span class="links">
+      <a href="https://github.com/nightswatchhq">github.com/nightswatchhq</a> ·
+      <a href="{{DISCORD}}">discord</a>
+    </span>
+    <span class="stamp">Repository list generated {{GENERATED}}. No trackers, no third-party requests.</span>
+  </div>
 </footer>
 
 <script>
 (function () {
   var root = document.documentElement, KEY = 'ntw-theme';
-  try { var s = localStorage.getItem(KEY); if (s) root.setAttribute('data-theme', s); } catch (e) {}
   document.getElementById('theme').addEventListener('click', function () {
     var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
     root.setAttribute('data-theme', next);
     try { localStorage.setItem(KEY, next); } catch (e) {}
   });
+
+  // One entrance, below the fold, via IntersectionObserver rather than a scroll
+  // listener. Elements are visible in the markup, so a crawler and a
+  // reduced-motion reader both get the finished page.
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var targets = document.querySelectorAll('[data-reveal]');
+    Array.prototype.forEach.call(targets, function (el) { el.classList.add('reveal'); });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { rootMargin: '-40px' });
+    Array.prototype.forEach.call(targets, function (el) { io.observe(el); });
+  }
 })();
 </script>
 
