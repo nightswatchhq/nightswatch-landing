@@ -5,7 +5,7 @@
     "description": "Rust client for the Amp blockchain database (Arrow Flight gRPC)",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-04-02T15:44:59Z"
+    "pushed_at": "2026-08-21T10:35:22Z"
   },
   {
     "name": "camp",
@@ -29,7 +29,7 @@
     "description": "The indexing engine behind camp / engine.camp. A source-built ETL engine for blockchain data (EVM RPC to DataFusion SQL to Parquet to Arrow Flight/JSONL). Built on Edge & Node's Amp, BUSL-1.1.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-06-10T09:31:48Z"
+    "pushed_at": "2026-08-21T10:35:22Z"
   },
   {
     "name": "candidate-selection",
@@ -37,7 +37,7 @@
     "description": "Fork of edgeandnode/candidate-selection with runtime-configurable indexer-selection weights (gib)",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-09T15:30:44Z"
+    "pushed_at": "2026-08-21T11:20:22Z"
   },
   {
     "name": "compass",
@@ -53,7 +53,7 @@
     "description": "Dispatch is a decentralised JSON-RPC service built on The Graph Protocol’s Horizon framework",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-06-10T13:59:44Z"
+    "pushed_at": "2026-08-21T11:06:13Z"
   },
   {
     "name": "doudouchain-v2-nest",
@@ -61,7 +61,7 @@
     "description": "Nuthatch event-input nest for the ICHICHAIN/Doudo Arbitrum deployment",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-17T08:14:04Z"
+    "pushed_at": "2026-08-21T10:35:22Z"
   },
   {
     "name": "epoch-block-oracle-nest",
@@ -69,7 +69,7 @@
     "description": "Nuthatch nest for The Graph Epoch Block Oracle on Arbitrum One",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-16T13:55:06Z"
+    "pushed_at": "2026-08-21T10:35:23Z"
   },
   {
     "name": "FHSCE",
@@ -77,7 +77,7 @@
     "description": "File Hosting Service, Community Edition. A Horizon-native, TAP v2 (GraphTally) paid data service for trust-minimised chunked file sharing. Forked from graphops/file-hosting-service and brought onto Arbitrum One.",
     "language": "Makefile",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:58:59Z"
+    "pushed_at": "2026-08-21T11:09:29Z"
   },
   {
     "name": "foghorn",
@@ -85,7 +85,7 @@
     "description": "A network-quality judge for The Graph. Block-pinned GraphQL probes and JCS hashing catch indexers serving confident, well-formed garbage.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-15T20:50:18Z"
+    "pushed_at": "2026-08-21T11:03:55Z"
   },
   {
     "name": "gateway",
@@ -93,7 +93,7 @@
     "description": "lodestar-gateway, an independent self-funded Graph Network gateway for Arbitrum One, post-Horizon. Fork of edgeandnode/gateway.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:09Z"
+    "pushed_at": "2026-08-21T11:20:08Z"
   },
   {
     "name": "gib",
@@ -101,7 +101,7 @@
     "description": "Gateway-in-a-Box: a self-hostable Graph Protocol subgraph gateway for Horizon / Arbitrum One",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-04T09:04:02Z"
+    "pushed_at": "2026-08-21T11:03:57Z"
   },
   {
     "name": "gib-skill",
@@ -109,7 +109,7 @@
     "description": "Claude Code concierge for deploying & validating a Graph Horizon gateway with gib. Sibling to lodestone.",
     "language": "Shell",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:15Z"
+    "pushed_at": "2026-08-21T10:35:23Z"
   },
   {
     "name": "graph-allocations-nest",
@@ -117,7 +117,7 @@
     "description": "Nuthatch nest: Graph Horizon allocations + curation signal on Arbitrum One. Finds subgraph deployments with signal staked and no indexer serving them.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-19T17:25:41Z"
+    "pushed_at": "2026-08-21T10:35:24Z"
   },
   {
     "name": "graph-gns-nest",
@@ -125,7 +125,7 @@
     "description": "Nuthatch nest for The Graph L2GNS publication activity on Arbitrum One",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-16T13:55:02Z"
+    "pushed_at": "2026-08-21T10:35:24Z"
   },
   {
     "name": "graph-staking-nest",
@@ -133,7 +133,7 @@
     "description": "Nuthatch nest for The Graph HorizonStaking delegation activity on Arbitrum One",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-16T13:54:59Z"
+    "pushed_at": "2026-08-21T10:35:25Z"
   },
   {
     "name": "graph-support",
@@ -141,7 +141,7 @@
     "description": "Something in The Graph is broken and nobody is answering. Community triage: you get a root cause, a workaround, or the name of whoever can actually fix it.",
     "language": null,
     "stargazers_count": 1,
-    "pushed_at": "2026-08-13T09:08:49Z"
+    "pushed_at": "2026-08-21T10:35:25Z"
   },
   {
     "name": "graph-tap-escrow-nest",
@@ -149,7 +149,7 @@
     "description": "Nuthatch nest for legacy TAP escrow activity on Arbitrum One",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-16T13:55:04Z"
+    "pushed_at": "2026-08-21T10:35:25Z"
   },
   {
     "name": "graphite",
@@ -157,7 +157,7 @@
     "description": "A Rust SDK for building subgraphs on The Graph",
     "language": "Rust",
     "stargazers_count": 1,
-    "pushed_at": "2026-04-16T08:54:22Z"
+    "pushed_at": "2026-08-21T11:06:09Z"
   },
   {
     "name": "hello-data-service",
@@ -165,7 +165,7 @@
     "description": "Minimal Horizon data service reference implementation, companion to the Lodestar guide.",
     "language": "Solidity",
     "stargazers_count": 0,
-    "pushed_at": "2026-04-24T10:00:39Z"
+    "pushed_at": "2026-08-21T10:35:26Z"
   },
   {
     "name": "hermit-ds",
@@ -181,7 +181,7 @@
     "description": "Reusable building blocks for The Graph Horizon data services: TAP v2 receipt validation, RAV aggregation, on-chain collection, persistence, and a generic TAP-gated reverse proxy.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:26Z"
+    "pushed_at": "2026-08-21T11:03:59Z"
   },
   {
     "name": "horizon-doctor",
@@ -197,7 +197,7 @@
     "description": "Subgraph for The Graph Horizon (Arbitrum One), authored in Redstart. A port of PaulieB14/horizon-indexer-subgraph, live on Subgraph Studio.",
     "language": "Red",
     "stargazers_count": 0,
-    "pushed_at": "2026-06-26T10:12:40Z"
+    "pushed_at": "2026-08-21T11:04:01Z"
   },
   {
     "name": "horizon-nest",
@@ -205,7 +205,7 @@
     "description": "A nuthatch nest: The Graph Protocol Horizon staking on Arbitrum One (operators, allocations, delegations, indexer totals). Mirrors PaulieB14's subgraph.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-16T16:01:36Z"
+    "pushed_at": "2026-08-21T10:35:27Z"
   },
   {
     "name": "horizon-skills",
@@ -213,7 +213,7 @@
     "description": "Distil a complete Graph Horizon data service from a short spec. Claude Code plugin (proxy + pipeline archetypes), built on horizon-core.",
     "language": "Go Template",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:38Z"
+    "pushed_at": "2026-08-21T11:04:03Z"
   },
   {
     "name": "indexer-gateway-auth",
@@ -221,7 +221,7 @@
     "description": "An authenticating reverse proxy for the Graph Protocol Indexer Management API.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:34Z"
+    "pushed_at": "2026-08-21T11:20:02Z"
   },
   {
     "name": "liminal",
@@ -229,7 +229,7 @@
     "description": "Polyglot, capability-isolated WASIp2 component runtime for streaming indexing pipelines on The Graph",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:36Z"
+    "pushed_at": "2026-08-21T11:21:21Z"
   },
   {
     "name": "livepeer-nest",
@@ -237,7 +237,7 @@
     "description": "A nuthatch nest: Livepeer protocol on Arbitrum One (transcoders, rounds, delegators, tickets, governance polls). Mirrors the official Livepeer subgraph.",
     "language": null,
     "stargazers_count": 1,
-    "pushed_at": "2026-07-28T09:23:19Z"
+    "pushed_at": "2026-08-21T10:35:27Z"
   },
   {
     "name": "lodestar",
@@ -245,7 +245,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-18T14:10:01Z"
+    "pushed_at": "2026-08-21T11:04:16Z"
   },
   {
     "name": "nests",
@@ -253,15 +253,15 @@
     "description": "The index of prebuilt Nuthatch nests: packaged indexing definitions that replace a rented subgraph with a self-hosted one.",
     "language": "Python",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-19T17:15:28Z"
+    "pushed_at": "2026-08-21T10:35:27Z"
   },
   {
     "name": "nightswatch-landing",
     "html_url": "https://github.com/nightswatchhq/nightswatch-landing",
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
-    "language": "JavaScript",
+    "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-20T05:46:24Z"
+    "pushed_at": "2026-08-21T11:56:35Z"
   },
   {
     "name": "nuthatch",
@@ -269,7 +269,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-08-20T23:59:06Z"
+    "pushed_at": "2026-08-21T23:42:04Z"
   },
   {
     "name": "nuthatch-ds",
@@ -277,7 +277,7 @@
     "description": null,
     "language": "Solidity",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-18T14:09:51Z"
+    "pushed_at": "2026-08-21T11:20:12Z"
   },
   {
     "name": "nuthatch-frontend",
@@ -285,7 +285,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-21T00:31:19Z"
+    "pushed_at": "2026-08-21T15:19:28Z"
   },
   {
     "name": "nuthatch-tui-client",
@@ -293,7 +293,7 @@
     "description": null,
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-16T10:00:00Z"
+    "pushed_at": "2026-08-21T11:04:04Z"
   },
   {
     "name": "nuthatch-x402",
@@ -301,7 +301,7 @@
     "description": "x402 payment sidecar for priced Nuthatch named queries",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-17T10:22:26Z"
+    "pushed_at": "2026-08-21T11:04:06Z"
   },
   {
     "name": "obib-case6",
@@ -309,7 +309,7 @@
     "description": "A nuthatch nest implementing OBIB case 6 (Uniswap V2 factory templates): 35,039 swaps from 232 pairs discovered at runtime, 49.5s, no handlers.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-04T09:22:55Z"
+    "pushed_at": "2026-08-21T10:35:30Z"
   },
   {
     "name": "peeranha-nest",
@@ -317,7 +317,7 @@
     "description": "Nuthatch nest: Peeranha on Polygon. Ported from a subgraph with 10,673 GRT signalled and zero indexer allocations - the gateway answers 'no allocations'.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-19T16:28:25Z"
+    "pushed_at": "2026-08-21T10:35:29Z"
   },
   {
     "name": "poa-nest",
@@ -325,7 +325,7 @@
     "description": "A nuthatch nest: the POA DAO-tooling stack on Arbitrum One (orgs, roles via Hats, tasks, governance, paymaster). Replaces a subgraph stuck syncing for over a day - 848 events across 42.5M blocks, synced in 59 seconds.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-03T07:22:37Z"
+    "pushed_at": "2026-08-21T10:35:30Z"
   },
   {
     "name": "polaris",
@@ -333,7 +333,7 @@
     "description": "Polaris: tokenless Horizon fork on Arbitrum One (wstETH stake, USDC payments, no inflation)",
     "language": "Solidity",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-08T08:37:02Z"
+    "pushed_at": "2026-08-21T11:04:08Z"
   },
   {
     "name": "qos-reo-nest",
@@ -341,7 +341,7 @@
     "description": "Nuthatch nest for The Graph QoS and Rewards Eligibility Oracle data",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-16T12:47:23Z"
+    "pushed_at": "2026-08-21T10:35:11Z"
   },
   {
     "name": "redstart",
@@ -349,7 +349,7 @@
     "description": "the sexiest language for authoring The Graph subgraphs",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-10T14:30:32Z"
+    "pushed_at": "2026-08-21T11:20:17Z"
   },
   {
     "name": "reo-doctor",
@@ -357,7 +357,7 @@
     "description": "Read-only REO (Rewards Eligibility Oracle / GIP-0088) health check for The Graph indexers",
     "language": "Shell",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:48Z"
+    "pushed_at": "2026-08-21T10:35:31Z"
   },
   {
     "name": "SDSCE",
@@ -365,7 +365,7 @@
     "description": "Substreams Data Service Community Edition",
     "language": "Go",
     "stargazers_count": 0,
-    "pushed_at": "2026-06-04T14:29:19Z"
+    "pushed_at": "2026-08-21T10:35:22Z"
   },
   {
     "name": "seahorn",
@@ -381,7 +381,7 @@
     "description": "Nuthatch nest: SpookySwap on Fantom. Ported from a subgraph with 21,491 GRT signalled and zero indexer allocations.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-19T15:58:15Z"
+    "pushed_at": "2026-08-21T10:35:31Z"
   },
   {
     "name": "squadswap-wow-v2-bsc",
@@ -389,7 +389,7 @@
     "description": "nuthatch nest for SquadSwap WOW v2 on BNB Smart Chain - concentrated liquidity, factory-discovered pools, per-pool fee overrides",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-13T18:30:24Z"
+    "pushed_at": "2026-08-21T10:35:31Z"
   },
   {
     "name": "swissindexingknife",
@@ -405,7 +405,7 @@
     "description": "Pay The Graph's indexers directly with TAP receipts and query them, without a gateway.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-06T09:32:02Z"
+    "pushed_at": "2026-08-21T11:04:10Z"
   },
   {
     "name": "uniswap-v3",
@@ -413,7 +413,7 @@
     "description": "A nuthatch nest: Uniswap V3 on Arbitrum. Every pool discovered from the factory, with swaps, prices, and volume. One binary, one config, SQL. No graph-node, no gateway.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-07-31T12:13:29Z"
+    "pushed_at": "2026-08-21T10:35:32Z"
   },
   {
     "name": "uniswap-v4-base",
@@ -421,7 +421,7 @@
     "description": "Nuthatch nest for the Uniswap V4 Base deployment",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-16T10:29:24Z"
+    "pushed_at": "2026-08-21T10:35:32Z"
   },
   {
     "name": "uniswap-v4-ethereum",
@@ -429,7 +429,7 @@
     "description": "A nuthatch nest: Uniswap V4 on Ethereum mainnet. The singleton PoolManager - no factory, no pool contracts, 10 event tables. Hook adoption, per-pool activity and liquidity, self-hosted in one binary.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-03T08:16:19Z"
+    "pushed_at": "2026-08-21T10:35:32Z"
   },
   {
     "name": "vince-data-service",
@@ -437,7 +437,7 @@
     "description": "A real Horizon data service for locating individuals named Vince, worldwide",
     "language": "Solidity",
     "stargazers_count": 0,
-    "pushed_at": "2026-04-24T10:08:01Z"
+    "pushed_at": "2026-08-21T10:35:33Z"
   },
   {
     "name": "wsaas",
