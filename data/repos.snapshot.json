@@ -365,7 +365,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-22T05:42:25Z"
+    "pushed_at": "2026-08-23T05:45:01Z"
   },
   {
     "name": "nuthatch",
@@ -373,7 +373,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-08-22T21:53:33Z"
+    "pushed_at": "2026-08-23T18:36:57Z"
   },
   {
     "name": "nuthatch-ds",
@@ -389,7 +389,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-23T05:28:13Z"
+    "pushed_at": "2026-08-23T10:49:31Z"
   },
   {
     "name": "nuthatch-tui-client",
