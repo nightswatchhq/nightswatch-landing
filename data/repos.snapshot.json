@@ -341,7 +341,15 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-24T10:54:26Z"
+    "pushed_at": "2026-08-26T13:50:08Z"
+  },
+  {
+    "name": "machinex-peaq",
+    "html_url": "https://github.com/nightswatchhq/machinex-peaq",
+    "description": "nuthatch nest: MachineX (MX-V3) on peaq",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-26T09:52:55Z"
   },
   {
     "name": "makerdao-dai",
@@ -357,7 +365,7 @@
     "description": "The index of prebuilt Nuthatch nests: packaged indexing definitions that replace a rented subgraph with a self-hosted one.",
     "language": "Python",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-22T18:33:05Z"
+    "pushed_at": "2026-08-26T09:52:17Z"
   },
   {
     "name": "nightswatch-landing",
@@ -365,7 +373,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-25T05:48:05Z"
+    "pushed_at": "2026-08-26T05:50:28Z"
   },
   {
     "name": "nuthatch",
@@ -373,7 +381,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-08-25T21:39:02Z"
+    "pushed_at": "2026-08-27T16:02:13Z"
   },
   {
     "name": "nuthatch-ds",
@@ -397,7 +405,7 @@
     "description": null,
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-25T11:16:45Z"
+    "pushed_at": "2026-08-26T11:55:24Z"
   },
   {
     "name": "nuthatch-x402",
@@ -422,6 +430,22 @@
     "language": null,
     "stargazers_count": 0,
     "pushed_at": "2026-08-22T18:05:00Z"
+  },
+  {
+    "name": "pancakeswap-infinity-cl-bsc",
+    "html_url": "https://github.com/nightswatchhq/pancakeswap-infinity-cl-bsc",
+    "description": "nuthatch nest: PancakeSwap Infinity CL on BNB Smart Chain",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-26T09:50:30Z"
+  },
+  {
+    "name": "pancakeswap-infinity-cl-redstart",
+    "html_url": "https://github.com/nightswatchhq/pancakeswap-infinity-cl-redstart",
+    "description": "A Redstart port of the PancakeSwap Infinity CL subgraph, where the null-deref that took the original dark is a compile error (GPL-3.0, derived from Uniswap/v4-subgraph)",
+    "language": "Red",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-26T13:37:11Z"
   },
   {
     "name": "pancakeswap-v3-bsc",
@@ -469,7 +493,7 @@
     "description": "the sexiest language for authoring The Graph subgraphs",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-21T11:20:17Z"
+    "pushed_at": "2026-08-26T13:32:26Z"
   },
   {
     "name": "reo-doctor",
