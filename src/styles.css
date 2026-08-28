@@ -456,6 +456,9 @@ section  { padding-block: clamp(4rem, 9vw, 7rem); }
        background: var(--pale-rust-bg); color: var(--rust); margin-bottom: 14px; }
 
 /* --- the rest of the org, as compact lines ------------------------------ */
+/* The bento above ends in a hard card edge; without this the first group's
+   heading sits almost on top of it. A wider break than group-to-group. */
+.rest { margin-top: 3.4rem; }
 .group + .group { margin-top: 2.6rem; }
 .group h3 { font-size: 0.7rem; font-weight: 500; color: var(--rust); margin: 0 0 0.35rem; }
 .group .blurb { color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem; max-width: 62ch; }
