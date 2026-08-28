@@ -1,5 +1,5 @@
 {
-  "_comment": "Groups the org's repos for the landing page. `feature` drives the bento at the top of The work; the first entry spans four columns, the rest two each. Everything else renders as compact rows under its group heading. Repos not listed in any group fall into 'Also in the org'. `hide` keeps a repo off entirely.",
+  "_comment": "Groups the org's repos for the landing page. `feature` drives the bento at the top of The work; the first entry spans four columns, the rest two each. Everything else renders as compact rows under its group heading. New nests belong in the `nests` group, not left to fall through. Repos not listed in any group land in 'Also in the org'. `hide` keeps a repo off entirely.",
   "feature": [
     {
       "repo": "nuthatch",
@@ -26,16 +26,73 @@
     {
       "id": "indexing",
       "title": "Indexing",
-      "blurb": "Run your own index. No rented middleman between you and the chain.",
+      "blurb": "The engine, its catalogue of nests, and the pieces that sit around it.",
       "repos": [
         "nuthatch",
-        "nuthatch-frontend",
         "nests",
-        "uniswap-v3",
-        "horizon-nest",
-        "livepeer-nest",
+        "nuthatch-frontend",
+        "nuthatch-ds",
+        "nuthatch-tui-client",
+        "nuthatch-x402",
         "camp-node",
         "amp-client"
+      ]
+    },
+    {
+      "id": "nests-graph",
+      "title": "Nests: The Graph",
+      "blurb": "Prebuilt indexing definitions for the protocol's own data. Point nuthatch at one and it self-hosts what a rented subgraph used to serve.",
+      "repos": [
+        "horizon-nest",
+        "graph-network",
+        "graph-allocations-nest",
+        "graph-staking-nest",
+        "graph-gns-nest",
+        "graph-tap-escrow-nest",
+        "dips-nest",
+        "epoch-block-oracle-nest",
+        "qos-reo-nest",
+        "rewards-eligibility-oracle",
+        "subgraph-availability-oracle"
+      ]
+    },
+    {
+      "id": "nests-apps",
+      "title": "Nests: DeFi, NFTs and apps",
+      "blurb": "The same, for the contracts everyone else actually queries. One binary per nest, no subgraph deployment.",
+      "repos": [
+        "uniswap-v2",
+        "uniswap-v2-arbitrum",
+        "uniswap-v2-base",
+        "uniswap-v3",
+        "uniswap-v4-ethereum",
+        "uniswap-v4-base",
+        "pancakeswap-v3-bsc",
+        "pancakeswap-infinity-cl-bsc",
+        "squadswap-wow-v2-bsc",
+        "spookyswap-nest",
+        "aerodrome",
+        "velodrome",
+        "aave-v3",
+        "aave-v3-arbitrum",
+        "aave-v3-base",
+        "compound",
+        "makerdao-dai",
+        "lido",
+        "eigenlayer",
+        "gmx",
+        "livepeer-nest",
+        "ens",
+        "seaport",
+        "request-payments",
+        "conditional-tokens-gnosis",
+        "omen-gnosis",
+        "peeranha-nest",
+        "poa-nest",
+        "machinex-peaq",
+        "doudouchain-v2-nest",
+        "forsage-bsc",
+        "obib-case6"
       ]
     },
     {
@@ -50,6 +107,8 @@
         "camp-data-service",
         "seahorn",
         "compass",
+        "chain-integration-ds",
+        "nutcracker",
         "hermit-ds",
         "FHSCE",
         "SDSCE",
@@ -67,6 +126,7 @@
         "gib-skill",
         "gateway",
         "candidate-selection",
+        "tap-query",
         "foghorn"
       ]
     },
@@ -78,6 +138,7 @@
         "redstart",
         "graphite",
         "liminal",
+        "pancakeswap-infinity-cl-redstart",
         "horizon-indexer-performance-redstart"
       ]
     },
@@ -90,7 +151,8 @@
         "reo-doctor",
         "indexer-gateway-auth",
         "swissindexingknife",
-        "lodestar"
+        "lodestar",
+        "graph-support"
       ]
     },
     {
