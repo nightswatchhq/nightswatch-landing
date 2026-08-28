@@ -72,6 +72,14 @@
     "pushed_at": "2026-08-21T11:20:22Z"
   },
   {
+    "name": "chain-integration-ds",
+    "html_url": "https://github.com/nightswatchhq/chain-integration-ds",
+    "description": "Chain integrations as a Horizon data service: meter per-chain integration revenue through the protocol. Settles via RecurringCollector (integration fee + ongoing support), not per-query receipts. Reference implementation.",
+    "language": "Solidity",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-28T14:48:29Z"
+  },
+  {
     "name": "compass",
     "html_url": "https://github.com/nightswatchhq/compass",
     "description": "A decentralised Subgraph-MCP gateway as a Horizon data service. Every subgraph becomes a pay-per-call MCP tool for AI agents, settled in GRT or USDC.",
@@ -96,12 +104,20 @@
     "pushed_at": "2026-08-22T18:05:49Z"
   },
   {
+    "name": "dips-nest",
+    "html_url": "https://github.com/nightswatchhq/dips-nest",
+    "description": "nuthatch nest: Direct Indexer Payments (DIPS) on Arbitrum One - the Issuance Allocator, Recurring Agreement Manager and Recurring Collector. Armed 2026-08-25, allocated zero.",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-28T09:28:23Z"
+  },
+  {
     "name": "dispatch",
     "html_url": "https://github.com/nightswatchhq/dispatch",
     "description": "Dispatch is a decentralised JSON-RPC service built on The Graph Protocol’s Horizon framework",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-21T11:06:13Z"
+    "pushed_at": "2026-08-28T15:00:46Z"
   },
   {
     "name": "doudouchain-v2-nest",
@@ -173,7 +189,7 @@
     "description": "Gateway-in-a-Box: a self-hostable Graph Protocol subgraph gateway for Horizon / Arbitrum One",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-21T11:03:57Z"
+    "pushed_at": "2026-08-28T11:00:45Z"
   },
   {
     "name": "gib-skill",
@@ -301,7 +317,7 @@
     "description": "Distil a complete Graph Horizon data service from a short spec. Claude Code plugin (proxy + pipeline archetypes), built on horizon-core.",
     "language": "Go Template",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-21T11:04:03Z"
+    "pushed_at": "2026-08-28T14:41:55Z"
   },
   {
     "name": "indexer-gateway-auth",
@@ -341,7 +357,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-26T13:50:08Z"
+    "pushed_at": "2026-08-28T16:18:45Z"
   },
   {
     "name": "machinex-peaq",
@@ -373,7 +389,15 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-26T05:50:28Z"
+    "pushed_at": "2026-08-28T16:22:50Z"
+  },
+  {
+    "name": "nutcracker",
+    "html_url": "https://github.com/nightswatchhq/nutcracker",
+    "description": "End-to-end encrypted, user-owned agent memory as a Horizon data service. E2E encryption and semantic recall do not compose; this picks a blind index over coarse buckets and says what leaks. Reference implementation.",
+    "language": "Makefile",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-28T15:47:35Z"
   },
   {
     "name": "nuthatch",
@@ -381,7 +405,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-08-27T16:02:13Z"
+    "pushed_at": "2026-08-28T17:06:02Z"
   },
   {
     "name": "nuthatch-ds",
