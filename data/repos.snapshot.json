@@ -77,7 +77,7 @@
     "description": "Chain integrations as a Horizon data service: meter per-chain integration revenue through the protocol. Settles via RecurringCollector (integration fee + ongoing support), not per-query receipts. Reference implementation.",
     "language": "Solidity",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-28T14:48:29Z"
+    "pushed_at": "2026-08-30T09:58:12Z"
   },
   {
     "name": "compass",
@@ -317,7 +317,7 @@
     "description": "Distil a complete Graph Horizon data service from a short spec. Claude Code plugin (proxy + pipeline archetypes), built on horizon-core.",
     "language": "Go Template",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-28T14:41:55Z"
+    "pushed_at": "2026-08-30T10:06:48Z"
   },
   {
     "name": "indexer-gateway-auth",
@@ -357,7 +357,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-29T09:52:57Z"
+    "pushed_at": "2026-08-30T10:15:35Z"
   },
   {
     "name": "machinex-peaq",
@@ -389,7 +389,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-28T17:26:38Z"
+    "pushed_at": "2026-08-29T11:39:51Z"
   },
   {
     "name": "nutcracker",
@@ -397,7 +397,7 @@
     "description": "End-to-end encrypted, user-owned agent memory as a Horizon data service. E2E encryption and semantic recall do not compose; this picks a blind index over coarse buckets and says what leaks. Reference implementation.",
     "language": "Makefile",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-29T09:14:40Z"
+    "pushed_at": "2026-08-30T09:48:09Z"
   },
   {
     "name": "nuthatch",
@@ -405,7 +405,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-08-29T09:54:26Z"
+    "pushed_at": "2026-08-30T10:05:31Z"
   },
   {
     "name": "nuthatch-ds",
@@ -421,7 +421,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-29T08:55:23Z"
+    "pushed_at": "2026-08-29T16:58:41Z"
   },
   {
     "name": "nuthatch-tui-client",
@@ -608,6 +608,14 @@
     "pushed_at": "2026-08-21T11:04:10Z"
   },
   {
+    "name": "tattler",
+    "html_url": "https://github.com/nightswatchhq/tattler",
+    "description": "Signed, replayable receipts for indexed chain data. An answer you can hand someone who has no reason to trust you.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-29T18:35:07Z"
+  },
+  {
     "name": "uniswap-v2",
     "html_url": "https://github.com/nightswatchhq/uniswap-v2",
     "description": "nuthatch nest: Uniswap V2 on Ethereum",
@@ -677,7 +685,7 @@
     "description": "Direct Indexer Payment agreements on The Graph. Build, sign and check Recurring Collection Agreements — with the EIP-712 hashing verified against the deployed RecurringCollector rather than against a reading of the spec.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-29T09:52:18Z"
+    "pushed_at": "2026-08-30T10:14:37Z"
   },
   {
     "name": "wsaas",
