@@ -40,6 +40,14 @@
     "pushed_at": "2026-08-21T10:35:22Z"
   },
   {
+    "name": "burrmill",
+    "html_url": "https://github.com/nightswatchhq/burrmill",
+    "description": "SQL over sealed Parquet segments with exact integer arithmetic and refuse-on-overflow. Faster than DuckDB on the queries an indexer actually runs.",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-31T09:39:36Z"
+  },
+  {
     "name": "camp",
     "html_url": "https://github.com/nightswatchhq/camp",
     "description": "Free Dune-class data API for Arbitrum One 🏕️ ",
@@ -77,7 +85,7 @@
     "description": "Chain integrations as a Horizon data service: meter per-chain integration revenue through the protocol. Settles via RecurringCollector (integration fee + ongoing support), not per-query receipts. Reference implementation.",
     "language": "Solidity",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-30T09:58:12Z"
+    "pushed_at": "2026-08-30T18:43:33Z"
   },
   {
     "name": "compass",
@@ -117,7 +125,7 @@
     "description": "Dispatch is a decentralised JSON-RPC service built on The Graph Protocol’s Horizon framework",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-28T15:00:46Z"
+    "pushed_at": "2026-08-30T14:35:16Z"
   },
   {
     "name": "doudouchain-v2-nest",
@@ -208,6 +216,14 @@
     "pushed_at": "2026-08-22T18:06:09Z"
   },
   {
+    "name": "graph-academy-v2",
+    "html_url": "https://github.com/nightswatchhq/graph-academy-v2",
+    "description": "The Graph Academy: community-owned learning site for The Graph. Role-based paths, checked against the Horizon-era protocol, with every number sourced and dated.",
+    "language": "MDX",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-31T10:11:49Z"
+  },
+  {
     "name": "graph-allocations-nest",
     "html_url": "https://github.com/nightswatchhq/graph-allocations-nest",
     "description": "Nuthatch nest: Graph Horizon allocations + curation signal on Arbitrum One. Finds subgraph deployments with signal staked and no indexer serving them.",
@@ -245,7 +261,7 @@
     "description": "Something in The Graph is broken and nobody is answering. Community triage: you get a root cause, a workaround, or the name of whoever can actually fix it.",
     "language": null,
     "stargazers_count": 1,
-    "pushed_at": "2026-08-21T10:35:25Z"
+    "pushed_at": "2026-08-31T08:18:46Z"
   },
   {
     "name": "graph-tap-escrow-nest",
@@ -317,7 +333,7 @@
     "description": "Distil a complete Graph Horizon data service from a short spec. Claude Code plugin (proxy + pipeline archetypes), built on horizon-core.",
     "language": "Go Template",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-30T10:06:48Z"
+    "pushed_at": "2026-08-30T10:56:43Z"
   },
   {
     "name": "indexer-gateway-auth",
@@ -357,7 +373,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-08-30T10:15:35Z"
+    "pushed_at": "2026-08-30T19:57:57Z"
   },
   {
     "name": "machinex-peaq",
@@ -389,7 +405,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-29T11:39:51Z"
+    "pushed_at": "2026-08-30T10:29:09Z"
   },
   {
     "name": "nutcracker",
@@ -405,7 +421,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-08-30T10:05:31Z"
+    "pushed_at": "2026-08-31T11:30:55Z"
   },
   {
     "name": "nuthatch-ds",
@@ -421,7 +437,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-29T16:58:41Z"
+    "pushed_at": "2026-08-31T09:28:09Z"
   },
   {
     "name": "nuthatch-tui-client",
@@ -613,7 +629,7 @@
     "description": "Signed, replayable receipts for indexed chain data. An answer you can hand someone who has no reason to trust you.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-29T18:35:07Z"
+    "pushed_at": "2026-08-30T12:48:51Z"
   },
   {
     "name": "uniswap-v2",
@@ -693,6 +709,6 @@
     "description": "WebSocket data service on Graph Horizon. Stream pre-parsed transfers, swaps and exchange events over one connection, gated by TAP v2 micropayments.",
     "language": "Solidity",
     "stargazers_count": 0,
-    "pushed_at": "2026-07-30T14:59:58Z"
+    "pushed_at": "2026-08-30T18:26:18Z"
   }
 ]
