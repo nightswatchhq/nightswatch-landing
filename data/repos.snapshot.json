@@ -117,7 +117,7 @@
     "description": "nuthatch nest: Direct Indexer Payments (DIPS) on Arbitrum One - the Issuance Allocator, Recurring Agreement Manager and Recurring Collector. Armed 2026-08-25, allocated zero.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-28T09:28:23Z"
+    "pushed_at": "2026-09-02T17:44:51Z"
   },
   {
     "name": "dispatch",
@@ -229,7 +229,7 @@
     "description": "Nuthatch nest: Graph Horizon allocations + curation signal on Arbitrum One. Finds subgraph deployments with signal staked and no indexer serving them.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-09-02T07:19:18Z"
+    "pushed_at": "2026-09-03T09:14:45Z"
   },
   {
     "name": "graph-gns-nest",
@@ -373,7 +373,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-09-02T07:23:45Z"
+    "pushed_at": "2026-09-03T08:38:11Z"
   },
   {
     "name": "machinex-peaq",
@@ -405,7 +405,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-01T10:06:51Z"
+    "pushed_at": "2026-09-02T09:37:56Z"
   },
   {
     "name": "nutcracker",
@@ -421,7 +421,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-09-02T09:27:59Z"
+    "pushed_at": "2026-09-03T09:44:41Z"
   },
   {
     "name": "nuthatch-ds",
@@ -470,6 +470,14 @@
     "language": null,
     "stargazers_count": 0,
     "pushed_at": "2026-08-22T18:05:00Z"
+  },
+  {
+    "name": "opolis-nest",
+    "html_url": "https://github.com/nightswatchhq/opolis-nest",
+    "description": "The Opolis Mainnet subgraph as a self-hosted nuthatch nest: three contracts, thirty tables, one binary",
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-09-02T18:28:38Z"
   },
   {
     "name": "pancakeswap-infinity-cl-bsc",
