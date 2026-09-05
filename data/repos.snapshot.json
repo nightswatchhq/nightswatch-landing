@@ -229,7 +229,7 @@
     "description": "Nuthatch nest: Graph Horizon allocations + curation signal on Arbitrum One. Finds subgraph deployments with signal staked and no indexer serving them.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-09-03T17:55:04Z"
+    "pushed_at": "2026-09-04T10:48:34Z"
   },
   {
     "name": "graph-gns-nest",
@@ -373,7 +373,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-09-04T07:23:15Z"
+    "pushed_at": "2026-09-04T13:31:11Z"
   },
   {
     "name": "machinex-peaq",
@@ -395,9 +395,9 @@
     "name": "nests",
     "html_url": "https://github.com/nightswatchhq/nests",
     "description": "The index of prebuilt Nuthatch nests: packaged indexing definitions that replace a rented subgraph with a self-hosted one.",
-    "language": "Python",
+    "language": "Shell",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-26T09:52:17Z"
+    "pushed_at": "2026-09-05T08:33:29Z"
   },
   {
     "name": "nightswatch-landing",
@@ -405,7 +405,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-03T09:50:42Z"
+    "pushed_at": "2026-09-04T09:39:42Z"
   },
   {
     "name": "nutcracker",
@@ -421,7 +421,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-09-04T09:39:01Z"
+    "pushed_at": "2026-09-05T09:04:48Z"
   },
   {
     "name": "nuthatch-ds",
@@ -437,7 +437,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-04T07:11:04Z"
+    "pushed_at": "2026-09-05T08:31:38Z"
   },
   {
     "name": "nuthatch-tui-client",
@@ -510,6 +510,14 @@
     "language": null,
     "stargazers_count": 0,
     "pushed_at": "2026-08-21T10:35:29Z"
+  },
+  {
+    "name": "perpl-nest",
+    "html_url": "https://github.com/nightswatchhq/perpl-nest",
+    "description": "Nuthatch nest for Perpl, the perpetual futures exchange on Monad: fills, funding, liquidations and markets from the exchange contract's own events",
+    "language": "Shell",
+    "stargazers_count": 0,
+    "pushed_at": "2026-09-05T08:33:33Z"
   },
   {
     "name": "poa-nest",
