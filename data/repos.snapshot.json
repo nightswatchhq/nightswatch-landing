@@ -227,9 +227,9 @@
     "name": "graph-allocations-nest",
     "html_url": "https://github.com/nightswatchhq/graph-allocations-nest",
     "description": "Nuthatch nest: Graph Horizon allocations + curation signal on Arbitrum One. Finds subgraph deployments with signal staked and no indexer serving them.",
-    "language": null,
+    "language": "Python",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-04T10:48:34Z"
+    "pushed_at": "2026-09-05T15:10:28Z"
   },
   {
     "name": "graph-gns-nest",
@@ -237,7 +237,7 @@
     "description": "Nuthatch nest for The Graph L2GNS publication activity on Arbitrum One",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-08-21T10:35:24Z"
+    "pushed_at": "2026-09-05T13:04:07Z"
   },
   {
     "name": "graph-network",
@@ -373,7 +373,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-09-04T13:31:11Z"
+    "pushed_at": "2026-09-06T08:53:59Z"
   },
   {
     "name": "machinex-peaq",
@@ -405,7 +405,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-04T09:39:42Z"
+    "pushed_at": "2026-09-05T09:05:21Z"
   },
   {
     "name": "nutcracker",
@@ -421,7 +421,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-09-05T09:04:48Z"
+    "pushed_at": "2026-09-06T09:23:17Z"
   },
   {
     "name": "nuthatch-ds",
