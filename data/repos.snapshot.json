@@ -45,7 +45,7 @@
     "description": "Nuthatch index of the Arcaidia contracts on Arc Testnet and Sepolia, with views mirroring the subgraph entities",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-09-11T11:26:40Z"
+    "pushed_at": "2026-09-13T07:06:29Z"
   },
   {
     "name": "burrmill",
@@ -229,7 +229,7 @@
     "description": "The Graph Academy: community-owned learning site for The Graph. Role-based paths, checked against the Horizon-era protocol, with every number sourced and dated.",
     "language": "MDX",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-12T07:36:03Z"
+    "pushed_at": "2026-09-12T19:42:51Z"
   },
   {
     "name": "graph-allocations-nest",
@@ -389,7 +389,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-09-12T09:17:55Z"
+    "pushed_at": "2026-09-12T17:25:08Z"
   },
   {
     "name": "machinex-peaq",
@@ -421,7 +421,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-11T09:41:50Z"
+    "pushed_at": "2026-09-12T09:22:07Z"
   },
   {
     "name": "nutcracker",
@@ -437,7 +437,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-09-12T08:43:24Z"
+    "pushed_at": "2026-09-13T10:15:09Z"
   },
   {
     "name": "nuthatch-ds",
@@ -453,7 +453,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-11T11:36:48Z"
+    "pushed_at": "2026-09-12T19:39:36Z"
   },
   {
     "name": "nuthatch-tui-client",
