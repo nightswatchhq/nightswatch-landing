@@ -421,7 +421,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-15T10:05:10Z"
+    "pushed_at": "2026-09-16T09:57:11Z"
   },
   {
     "name": "nutcracker",
@@ -437,7 +437,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 4,
-    "pushed_at": "2026-09-16T08:36:55Z"
+    "pushed_at": "2026-09-16T18:12:22Z"
   },
   {
     "name": "nuthatch-ds",
