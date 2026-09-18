@@ -53,7 +53,7 @@
     "description": "SQL over sealed Parquet segments with exact integer arithmetic and refuse-on-overflow. Faster than DuckDB on the queries an indexer actually runs.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-31T18:40:51Z"
+    "pushed_at": "2026-09-17T19:26:25Z"
   },
   {
     "name": "camp",
@@ -229,7 +229,7 @@
     "description": "The Graph Academy: community-owned learning site for The Graph. Role-based paths, checked against the Horizon-era protocol, with every number sourced and dated.",
     "language": "MDX",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-15T13:46:48Z"
+    "pushed_at": "2026-09-17T19:26:50Z"
   },
   {
     "name": "graph-allocations-nest",
@@ -421,7 +421,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-16T09:57:11Z"
+    "pushed_at": "2026-09-17T09:59:40Z"
   },
   {
     "name": "nutcracker",
