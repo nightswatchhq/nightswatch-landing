@@ -256,6 +256,14 @@
     "pushed_at": "2026-08-22T18:06:14Z"
   },
   {
+    "name": "graph-network-nest",
+    "html_url": "https://github.com/nightswatchhq/graph-network-nest",
+    "description": null,
+    "language": null,
+    "stargazers_count": 0,
+    "pushed_at": "2026-09-21T09:01:47Z"
+  },
+  {
     "name": "graph-staking-nest",
     "html_url": "https://github.com/nightswatchhq/graph-staking-nest",
     "description": "Nuthatch nest for The Graph HorizonStaking delegation activity on Arbitrum One",
@@ -421,7 +429,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-19T09:30:50Z"
+    "pushed_at": "2026-09-20T09:49:02Z"
   },
   {
     "name": "nutcracker",
@@ -436,8 +444,8 @@
     "html_url": "https://github.com/nightswatchhq/nuthatch",
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
-    "stargazers_count": 4,
-    "pushed_at": "2026-09-16T18:12:22Z"
+    "stargazers_count": 5,
+    "pushed_at": "2026-09-21T09:55:56Z"
   },
   {
     "name": "nuthatch-ds",
