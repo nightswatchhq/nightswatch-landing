@@ -53,7 +53,7 @@
     "description": "SQL over sealed Parquet segments with exact integer arithmetic and refuse-on-overflow. Faster than DuckDB on the queries an indexer actually runs.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-17T19:26:25Z"
+    "pushed_at": "2026-09-25T09:19:45Z"
   },
   {
     "name": "camp",
@@ -229,7 +229,7 @@
     "description": "The Graph Academy: community-owned learning site for The Graph. Role-based paths, checked against the Horizon-era protocol, with every number sourced and dated.",
     "language": "MDX",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-17T19:26:50Z"
+    "pushed_at": "2026-09-24T20:14:54Z"
   },
   {
     "name": "graph-allocations-nest",
@@ -277,7 +277,7 @@
     "description": "Something in The Graph is broken and nobody is answering. Community triage: you get a root cause, a workaround, or the name of whoever can actually fix it.",
     "language": null,
     "stargazers_count": 1,
-    "pushed_at": "2026-08-31T08:18:46Z"
+    "pushed_at": "2026-09-24T20:00:27Z"
   },
   {
     "name": "graph-tap-escrow-nest",
@@ -397,7 +397,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-09-23T14:01:23Z"
+    "pushed_at": "2026-09-25T10:01:57Z"
   },
   {
     "name": "machinex-peaq",
@@ -429,7 +429,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-23T09:59:14Z"
+    "pushed_at": "2026-09-24T10:01:28Z"
   },
   {
     "name": "nutcracker",
@@ -444,8 +444,8 @@
     "html_url": "https://github.com/nightswatchhq/nuthatch",
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
-    "stargazers_count": 5,
-    "pushed_at": "2026-09-24T08:28:10Z"
+    "stargazers_count": 7,
+    "pushed_at": "2026-09-25T10:08:58Z"
   },
   {
     "name": "nuthatch-ds",
@@ -461,7 +461,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-24T07:53:19Z"
+    "pushed_at": "2026-09-24T17:15:20Z"
   },
   {
     "name": "nuthatch-tui-client",
@@ -469,7 +469,7 @@
     "description": null,
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-26T11:55:24Z"
+    "pushed_at": "2026-09-24T19:17:33Z"
   },
   {
     "name": "nuthatch-x402",
