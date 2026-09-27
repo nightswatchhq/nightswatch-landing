@@ -53,7 +53,7 @@
     "description": "SQL over sealed Parquet segments with exact integer arithmetic and refuse-on-overflow. Faster than DuckDB on the queries an indexer actually runs.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-26T09:34:23Z"
+    "pushed_at": "2026-09-27T10:16:31Z"
   },
   {
     "name": "camp",
@@ -237,7 +237,7 @@
     "description": "Nuthatch nest: Graph Horizon allocations + curation signal on Arbitrum One. Finds subgraph deployments with signal staked and no indexer serving them.",
     "language": "Python",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-25T12:41:07Z"
+    "pushed_at": "2026-09-26T13:42:25Z"
   },
   {
     "name": "graph-gns-nest",
@@ -429,7 +429,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-25T10:11:50Z"
+    "pushed_at": "2026-09-26T09:55:00Z"
   },
   {
     "name": "nutcracker",
@@ -445,7 +445,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 7,
-    "pushed_at": "2026-09-26T09:53:11Z"
+    "pushed_at": "2026-09-27T10:18:39Z"
   },
   {
     "name": "nuthatch-ds",
@@ -461,7 +461,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-24T17:15:20Z"
+    "pushed_at": "2026-09-27T10:04:54Z"
   },
   {
     "name": "nuthatch-tui-client",
@@ -677,7 +677,7 @@
     "description": "A sealed, verifiable history corpus for EVM chains, and one small process that serves it.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-14T14:24:47Z"
+    "pushed_at": "2026-09-26T19:43:16Z"
   },
   {
     "name": "uniswap-v2",
