@@ -53,7 +53,7 @@
     "description": "SQL over sealed Parquet segments with exact integer arithmetic and refuse-on-overflow. Faster than DuckDB on the queries an indexer actually runs.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-28T11:16:14Z"
+    "pushed_at": "2026-09-29T11:14:29Z"
   },
   {
     "name": "camp",
@@ -429,7 +429,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-27T10:33:28Z"
+    "pushed_at": "2026-09-28T11:41:52Z"
   },
   {
     "name": "nutcracker",
@@ -445,7 +445,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 7,
-    "pushed_at": "2026-09-28T10:53:24Z"
+    "pushed_at": "2026-09-29T11:14:27Z"
   },
   {
     "name": "nuthatch-ds",
