@@ -53,7 +53,7 @@
     "description": "SQL over sealed Parquet segments with exact integer arithmetic and refuse-on-overflow. Faster than DuckDB on the queries an indexer actually runs.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-04T04:14:50Z"
+    "pushed_at": "2026-10-05T11:04:05Z"
   },
   {
     "name": "camp",
@@ -245,7 +245,7 @@
     "description": "Nuthatch nest: Graph Horizon allocations + curation signal on Arbitrum One. Finds subgraph deployments with signal staked and no indexer serving them.",
     "language": "Python",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-01T14:59:33Z"
+    "pushed_at": "2026-10-05T09:53:12Z"
   },
   {
     "name": "graph-gns-nest",
@@ -269,7 +269,7 @@
     "description": null,
     "language": "Shell",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-26T09:21:26Z"
+    "pushed_at": "2026-10-05T08:40:15Z"
   },
   {
     "name": "graph-staking-nest",
@@ -285,7 +285,7 @@
     "description": "Something in The Graph is broken and nobody is answering. Community triage: you get a root cause, a workaround, or the name of whoever can actually fix it.",
     "language": null,
     "stargazers_count": 1,
-    "pushed_at": "2026-09-24T20:00:27Z"
+    "pushed_at": "2026-10-05T08:40:20Z"
   },
   {
     "name": "graph-tap-escrow-nest",
@@ -405,7 +405,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-10-01T16:08:44Z"
+    "pushed_at": "2026-10-05T08:30:47Z"
   },
   {
     "name": "machinex-peaq",
@@ -437,7 +437,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-03T10:24:45Z"
+    "pushed_at": "2026-10-04T11:07:01Z"
   },
   {
     "name": "nutcracker",
@@ -453,7 +453,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 7,
-    "pushed_at": "2026-10-04T10:50:17Z"
+    "pushed_at": "2026-10-05T12:00:27Z"
   },
   {
     "name": "nuthatch-desk",
@@ -477,7 +477,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-04T10:59:02Z"
+    "pushed_at": "2026-10-05T07:39:37Z"
   },
   {
     "name": "nuthatch-tui-client",
@@ -501,7 +501,7 @@
     "description": "A nuthatch nest implementing OBIB case 6 (Uniswap V2 factory templates): 35,039 swaps from 232 pairs discovered at runtime, 49.5s, no handlers.",
     "language": null,
     "stargazers_count": 0,
-    "pushed_at": "2026-10-01T09:54:57Z"
+    "pushed_at": "2026-10-05T08:22:59Z"
   },
   {
     "name": "omen-gnosis",
