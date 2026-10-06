@@ -48,12 +48,20 @@
     "pushed_at": "2026-09-13T07:06:29Z"
   },
   {
+    "name": "betswirl-bnb-nest",
+    "html_url": "https://github.com/nightswatchhq/betswirl-bnb-nest",
+    "description": "Nuthatch nest answering BetSwirl's BNB Chain subgraph queries (stopgap for Qmd5oqyo…)",
+    "language": "JavaScript",
+    "stargazers_count": 0,
+    "pushed_at": "2026-10-06T10:52:15Z"
+  },
+  {
     "name": "burrmill",
     "html_url": "https://github.com/nightswatchhq/burrmill",
     "description": "SQL over sealed Parquet segments with exact integer arithmetic and refuse-on-overflow. Faster than DuckDB on the queries an indexer actually runs.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-05T11:04:05Z"
+    "pushed_at": "2026-10-05T14:46:00Z"
   },
   {
     "name": "camp",
@@ -237,7 +245,7 @@
     "description": "The Graph Academy: community-owned learning site for The Graph. Role-based paths, checked against the Horizon-era protocol, with every number sourced and dated.",
     "language": "MDX",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-02T10:32:43Z"
+    "pushed_at": "2026-10-06T10:54:51Z"
   },
   {
     "name": "graph-allocations-nest",
@@ -245,7 +253,7 @@
     "description": "Nuthatch nest: Graph Horizon allocations + curation signal on Arbitrum One. Finds subgraph deployments with signal staked and no indexer serving them.",
     "language": "Python",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-05T09:53:12Z"
+    "pushed_at": "2026-10-05T15:54:34Z"
   },
   {
     "name": "graph-gns-nest",
@@ -405,7 +413,7 @@
     "description": "Lodestar 🌟 stay oriented",
     "language": "TypeScript",
     "stargazers_count": 5,
-    "pushed_at": "2026-10-05T08:30:47Z"
+    "pushed_at": "2026-10-05T15:57:24Z"
   },
   {
     "name": "machinex-peaq",
@@ -437,7 +445,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-04T11:07:01Z"
+    "pushed_at": "2026-10-05T12:18:16Z"
   },
   {
     "name": "nutcracker",
@@ -453,7 +461,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 7,
-    "pushed_at": "2026-10-05T12:00:27Z"
+    "pushed_at": "2026-10-06T10:04:45Z"
   },
   {
     "name": "nuthatch-desk",
@@ -477,7 +485,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-05T07:39:37Z"
+    "pushed_at": "2026-10-06T06:01:25Z"
   },
   {
     "name": "nuthatch-tui-client",
