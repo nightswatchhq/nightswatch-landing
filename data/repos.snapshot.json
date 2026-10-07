@@ -53,7 +53,7 @@
     "description": "Nuthatch nest answering BetSwirl's BNB Chain subgraph queries (stopgap for Qmd5oqyo…)",
     "language": "JavaScript",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-06T10:52:15Z"
+    "pushed_at": "2026-10-06T19:05:12Z"
   },
   {
     "name": "burrmill",
@@ -61,7 +61,7 @@
     "description": "SQL over sealed Parquet segments with exact integer arithmetic and refuse-on-overflow. Faster than DuckDB on the queries an indexer actually runs.",
     "language": "Rust",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-05T14:46:00Z"
+    "pushed_at": "2026-10-07T11:34:03Z"
   },
   {
     "name": "camp",
@@ -437,7 +437,7 @@
     "description": "The index of prebuilt Nuthatch nests: packaged indexing definitions that replace a rented subgraph with a self-hosted one.",
     "language": "Shell",
     "stargazers_count": 0,
-    "pushed_at": "2026-09-05T08:33:29Z"
+    "pushed_at": "2026-10-06T18:23:40Z"
   },
   {
     "name": "nightswatch-landing",
@@ -445,7 +445,7 @@
     "description": "Landing page for The Night's Watch, an open community for the people who build and hold the data layer of web3.",
     "language": "CSS",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-05T12:18:16Z"
+    "pushed_at": "2026-10-06T12:01:58Z"
   },
   {
     "name": "nutcracker",
@@ -461,7 +461,7 @@
     "description": "Be your own indexer. One Rust binary, one command, live indexed API in under two minutes. No mandatory third-party data dependency.",
     "language": "Rust",
     "stargazers_count": 7,
-    "pushed_at": "2026-10-06T10:04:45Z"
+    "pushed_at": "2026-10-06T19:32:11Z"
   },
   {
     "name": "nuthatch-desk",
@@ -485,7 +485,7 @@
     "description": "Website for Nuthatch, the self-hosted, AI-native blockchain indexer. Astro, static, zero third-party resources.",
     "language": "Astro",
     "stargazers_count": 0,
-    "pushed_at": "2026-10-06T06:01:25Z"
+    "pushed_at": "2026-10-06T20:49:59Z"
   },
   {
     "name": "nuthatch-tui-client",
@@ -766,6 +766,14 @@
     "language": "Solidity",
     "stargazers_count": 0,
     "pushed_at": "2026-08-21T10:35:33Z"
+  },
+  {
+    "name": "waxwing",
+    "html_url": "https://github.com/nightswatchhq/waxwing",
+    "description": "Handing synced subgraph deployments between Graph indexers",
+    "language": "Rust",
+    "stargazers_count": 0,
+    "pushed_at": "2026-10-06T17:10:41Z"
   },
   {
     "name": "weaver",
