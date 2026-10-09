@@ -1,6 +1,6 @@
-# nightswatch-landing
+# nuthatch-landing
 
-Landing page for **The Night's Watch** — an open community for the people who build and
+Landing page for **Nuthatch** — an open community for the people who build and
 hold the data layer of web3.
 
 Join us: <https://discord.gg/CQewvyJ69Y>

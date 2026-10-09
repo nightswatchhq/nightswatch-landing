@@ -7,10 +7,10 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const ORG = process.env.ORG || 'nightswatchhq';
+const ORG = process.env.ORG || 'nuthatch-org';
 const DISCORD = process.env.DISCORD_INVITE || 'https://discord.gg/CQewvyJ69Y';
 // Canonical origin, no trailing slash. Override with SITE_URL when a custom domain lands.
-const SITE_URL = (process.env.SITE_URL || 'https://nightswatch-landing.vercel.app').replace(/\/+$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://nuthatch-landing.vercel.app').replace(/\/+$/, '');
 
 const esc = (s) =>
   String(s ?? '').replace(/[&<>"']/g, (c) =>
