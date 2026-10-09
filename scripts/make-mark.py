@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Rasterise the Night's Watch mark into the PNG sizes the page and the social
+Rasterise Nuthatch mark into the PNG sizes the page and the social
 cards need. src/static/mark.svg is the source of truth; this reproduces the same
 geometry analytically, because there is no SVG rasteriser on this machine and
 adding a dependency for two square images is not a trade worth making.
